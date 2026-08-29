@@ -1,0 +1,659 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #021E2F;
+}
+
+
+
+/* =========================
+   COLORS
+========================= */
+
+:root {
+
+    --primary: #07539a;
+
+    --primary-dark: #04386b;
+
+    --orange: #f58220;
+
+    --dark: #172337;
+
+    --light: #f6f8fc;
+
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+
+    min-height: 80px;
+
+}
+
+.logo {
+
+    width: 180px;
+
+    height: auto;
+
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: #222;
+    padding: 25px 20px !important;
+}
+
+/* Keep split dropdown controls visually connected. */
+.navbar-nav .nav-item.dropdown > .d-flex > .nav-link:not(.dropdown-toggle) {
+    padding-right: 2px !important;
+}
+
+.navbar-nav .nav-item.dropdown > .d-flex > .dropdown-toggle {
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+}
+
+.navbar-nav .nav-link:hover {
+
+    color: var(--primary);
+
+}
+
+/* =========================
+   MEMBERS
+========================= */
+
+.member-box {
+
+    background: white;
+
+    border-radius: 10px;
+
+    min-height: 140px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 10px;
+
+    box-shadow:
+        0 5px 25px rgba(0,0,0,.07);
+
+    transition: all .3s ease;
+
+    border-radius: 20px;
+
+}
+
+/* =========================================
+   DNOIA FOOTER
+========================================= */
+
+.dnoia-footer {
+    background-color: #173E76;
+    color: #ffffff;
+    width: 100%;
+}
+
+
+/* =========================================
+   MAIN FOOTER
+========================================= */
+
+.dnoia-footer > .container-fluid {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+/* Footer heading */
+
+.footer-title {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+
+/* Orange underline */
+
+.footer-line {
+    width: 30px;
+    height: 3px;
+    background-color: #f5a02c;
+    margin-bottom: 28px;
+}
+
+
+/* Links */
+
+.footer-links {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #dce4e8;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: #f5a02c;
+}
+
+
+/* =========================================
+   CONTACT
+========================================= */
+
+.footer-contact {
+    color: #dce4e8;
+    font-size: 16px;
+    line-height: 1.45;
+}
+
+.contact-icon {
+    width: 32px;
+    flex-shrink: 0;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.footer-contact a {
+    color: #dce4e8;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    color: #f5a02c;
+}
+
+
+/* =========================================
+   BOTTOM FOOTER
+========================================= */
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 20px 0;
+}
+
+
+/* Copyright */
+
+.copyright {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+/* =========================================
+   LOGO
+========================================= */
+
+.footer-logo {
+    width: 160px;
+    height: auto;
+    object-fit: contain;
+}
+
+
+/* =========================================
+   SOCIAL BUTTONS
+========================================= */
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.social-btn {
+    width: 36px;
+    height: 36px;
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #ffffff;
+    text-decoration: none;
+
+    font-size: 13px;
+}
+
+.social-btn:hover {
+    color: #f5a02c;
+    border-color: #f5a02c;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 991px) {
+
+    .aidcf-footer > .container-fluid {
+        padding-top: 50px;
+    }
+
+    .footer-logo {
+        width: 140px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+    .aidcf-footer > .container-fluid {
+        padding-top: 40px;
+    }
+
+    .footer-title {
+        margin-top: 15px;
+    }
+
+    .footer-bottom {
+        text-align: center;
+    }
+
+    .copyright {
+        margin-bottom: 20px !important;
+    }
+
+    .social-icons {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .footer-logo {
+        margin: 15px 0;
+    }
+
+}
+
+.custom-bg {
+    background-color: #173E76;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 991px) {
+
+    .navbar-nav .nav-link {
+
+        padding: 10px 0 !important;
+
+    }
+    
+
+    .hero-title {
+
+        font-size: 40px;
+
+    }
+
+}
+
+.director-info:hover{
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+
+
+.banner-section {
+    width: 100%;
+    overflow: hidden;
+}
+
+.membership-section {
+    background-color: #022333;
+    width: 100%;
+    margin-bottom: 1px;
+}
+
+
+/* Left heading */
+
+.membership-info-title {
+    color: #f5a02c;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+/* Main heading */
+
+.membership-title {
+    color: #f5a02c;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+/* Required text */
+
+.required-text {
+    color: #f5a02c;
+    font-size: 14px;
+}
+
+
+/* Inputs */
+
+.membership-section .form-control {
+    height: 37px;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    padding: 5px 12px;
+}
+
+.membership-section .form-control::placeholder {
+    color: #777;
+    opacity: 1;
+    font-size: 14px;
+
+}
+
+
+/* Message */
+
+.membership-section input[name="message"] {
+    width: 100%;
+}
+
+
+/* Submit */
+
+.membership-submit {
+    min-width: 87px;
+    height: 42px;
+    border-radius: 2px;
+
+    background-color: #357dcc;
+    border: 1px solid #e83e8c;
+
+    font-size: 16px;
+}
+
+.membership-submit:hover {
+    background-color: #2868ad;
+    border-color: #e83e8c;
+}
+
+.news-list {
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.news-heading:hover{
+        text-decoration: underline !important;
+
+}
+
+/* Mobile */
+
+@media (max-width: 767px) {
+
+    .membership-section {
+        padding: 40px 0;
+    }
+
+    .membership-info-title {
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .membership-title {
+        font-size: 23px;
+    }
+
+}
+
+.banner-image {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 991px) {
+
+    .banner-image {
+        height: 350px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .banner-image {
+        height: 220px;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+    .hero-section {
+
+        min-height: 300px;
+
+    }
+
+    .hero-title {
+
+        font-size: 32px;
+
+    }
+   
+    .section-title {
+
+        font-size: 28px;
+
+    }
+
+    .logo {
+
+        width: 145px;
+
+    }
+
+}
+
+
+.light{
+    width: 100%;
+}
+
+.section-title {
+    min-height: 50px;
+    cursor: pointer;
+}
+
+.section-title span:first-child {
+    font-size: 16px;
+}
+
+
+
+.section-arrow::before {
+     color: var(--secondary-color);
+    font-size: 12px;
+    transition: transform 0.3s ease;
+}
+
+  [aria-expanded="true"] .section-arrow::before {
+        transform: rotate(180deg);
+}
+
+.section-title[aria-expanded="false"] {
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #dee2e6;
+}
+
+
+    /* Theme */
+    :root {
+        --primary-color: #0F172A;
+        --secondary-color: #022333;
+        --light-color: #F8FAFC;
+    }
+
+
+    /* Section heading */
+
+    .border-info {
+        border-color: var(--secondary-color) !important;
+    }
+
+
+    /* Accordion hover */
+
+    [data-bs-toggle="collapse"] {
+        cursor: pointer;
+        transition: 0.2s ease;
+    }
+
+
+    [data-bs-toggle="collapse"]:hover {
+        background-color: #F0FDFA !important;
+    }
+
+    /* Text */
+
+    .text-dark {
+        color: var(--primary-color) !important;
+    }
+
+
+    /* Mobile */
+
+    @media (max-width: 576px) {
+
+        .container {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        [data-bs-toggle="collapse"] {
+            padding: 13px !important;
+        }
+
+    }
+
+@media (min-width: 992px) {
+
+    .nav-item.dropdown:hover > .dropdown-menu {
+        display: block;
+    }
+
+    .nav-item.dropdown {
+        position: relative;
+    }
+
+    .nav-item.dropdown .dropdown-menu {
+        margin-top: 0;
+    }
+
+}
+
+.form-submit-btn{
+    background-color: #173E76;  
+}
+.form-submit-btn:hover{
+    background-color: #f59a32 !important;
+    border-color: #f59a32 !important;
+}
+
+/* Thin scrollbar */
+.thin-scrollbar::-webkit-scrollbar {
+    width: 4px;
+}
+
+.thin-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.thin-scrollbar::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 10px;
+}
+
+.thin-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+
+.member-card:hover {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.20) !important;
+   
+}
+
+
+.pagination .page-link {
+    color: #173E76;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #173E76;
+    color: #fff;
+}
+
+.pagination .page-link:hover {
+    background-color: #f59a32;
+    color: #fff;
+}
+
+.read-more-btn:hover {
+    background-color: #f59a32 !important;
+
+}
+
+.hero-title {
+    white-space: nowrap;
+    font-size: clamp(20px, 3vw, 40px);
+}
+
+.title-link{
+    text-decoration: none;
+    color: black
+}
+
+
+
+
+
