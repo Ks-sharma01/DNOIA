@@ -3,52 +3,24 @@
 $presidents = [
 
     [
-        'from' => 'June, 2025',
+        'from' => 'November 2013',
         'to' => 'Present',
-        'president' => 'Mr. Anirudhsinh Jadeja, Managing Director, GTPL Hathway Limited'
+        'president' => 'Mr. Ravi Gupta, CEO & Founder, DDC CATV Network Pvt. Ltd'
     ],
 
     [
-        'from' => 'November, 2024',
-        'to' => 'May, 2025',
-        'president' => 'Mr. S.N. Sharma, CEO, DEN Networks Limited'
+        'from' => 'August, 2022',
+        'to' => 'Present',
+        'president' => 'Mr. Sanjiv Narain, Founder, Axom ISPL'
     ],
 
     [
-        'from' => 'April, 2023',
-        'to' => 'November, 2024',
-        'president' => 'Mr. Peeush Mahajan, CEO, Fastway Transmissions Private Limited'
+        'from' => 'January, 2022',
+        'to' => 'Present',
+        'president' => 'Mr. Yogesh Sharma, CEO, Siti Networks Limited'
     ],
 
-    [
-        'from' => 'April, 2021',
-        'to' => 'March, 2023',
-        'president' => 'Mr. Anirudhsinh Jadeja, Managing Director, GTPL Hathway Limited'
-    ],
-
-    [
-        'from' => 'April, 2019',
-        'to' => 'March, 2021',
-        'president' => 'Mr. S.N. Sharma, CEO, DEN Networks Limited'
-    ],
-
-    [
-        'from' => 'July, 2017',
-        'to' => 'March, 2019',
-        'president' => 'Mr. Rajen Gupta, MD, Hathway Cable & Datacom Limited, Chairman & Non-Executive Director, GTPL'
-    ],
-
-    [
-        'from' => 'January, 2017',
-        'to' => 'July, 2017',
-        'president' => 'Mr. Tavinderjit Panesar, CEO (Video Business), Hathway Cable and Datacom Limited'
-    ],
-
-    [
-        'from' => 'October, 2014',
-        'to' => 'January, 2017',
-        'president' => 'Mr. V.D. Wadhwa, CEO & Executive Director, SITI Networks Limited'
-    ]
+ 
 
 ];
 

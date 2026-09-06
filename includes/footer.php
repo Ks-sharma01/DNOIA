@@ -26,16 +26,18 @@
                         </div>
                         
                         <div>
-                            236, Okhla Industrial Estate,<br>
-                            Phase 3, New Delhi – 110020<br>
-                            (INDIA)
+                            Office Number 2, </br>
+                            Ist Floor, Local Shopping center,</br>
+                            Uday Park New Dehi - 110049
+
+                           
                         </div>
                         
                     </div>
                     
                     
                     <!-- Email -->
-                    <div class="d-flex">
+                    <!-- <div class="d-flex">
                         
                         <div class="contact-icon">
                             <i class="bi bi-envelope"></i>
@@ -47,7 +49,7 @@
                             </a>
                         </div>
                         
-                    </div>
+                    </div> -->
                     
                 </div>
                 
@@ -65,14 +67,14 @@
                 <ul class="footer-links list-unstyled">
                     
                     <li>
-                        <a href="<?= BASE_URL ?>about.php#contentId">DNOIA</a>
+                        <a href="<?= BASE_URL ?>about.php#contentId">DNOAI</a>
                     </li>
                     
-                    <li>
+                    <!-- <li>
                         <a href="<?= BASE_URL ?>about.php#stakeholdersId">
                             Cable TV Industry
                         </a>
-                    </li>
+                    </li> -->
                     
                     <li>
                         <a href="<?= BASE_URL ?>about.php#visionId">
@@ -93,8 +95,8 @@
                     </li>
                     
                     <li>
-                        <a href="<?= BASE_URL ?>secretariat.php">
-                            Secretariat
+                        <a href="#">
+                            Coming Soon
                         </a>
                     </li>
                     
@@ -149,39 +151,38 @@
                 <ul class="footer-links list-unstyled">
                     
                     <li>
-                        <a href="<?= BASE_URL ?>news-media.php">
-                            News & Media
+                        <a href="#">
+                            Coming Soon
                         </a>
                     </li>
                     
                     <li>
-                        <a href="<?= BASE_URL ?>dnoia-press-releases.php">
-                            DNOIA Press Releases
+                        <a href="#">
+                            Coming Soon
                         </a>
                     </li>
 
                     <li>
-                        <a href="<?= BASE_URL ?>industry-updates.php">
-                            Industry Updates
+                        <a href="#">
+                            Coming Soon
                         </a>
                     </li>
                     
                     <li>
-                        <a href="<?= BASE_URL ?>consultation-papers.php">
-                            Consultation Papers &<br>
-                            Recommendations
+                        <a href="#">
+                            Coming Soon
                         </a>
                     </li>
                     
                     <li>
-                        <a href="<?= BASE_URL ?>rules-regulations.php">
-                            Rules & Regulations
+                        <a href="#">
+                            Coming Soon
                         </a>
                     </li>
                     
                     <li>
-                        <a href="relevant-websites.php">
-                            Relevant Websites
+                        <a href="#">
+                            Coming Soon
                         </a>
                     </li>
                     
@@ -207,7 +208,7 @@
                 <div class="col-lg-4 col-md-4 col-12">
                     
                     <p class="copyright mb-0">
-                        Powered by TellyOn
+                        Powered by <img src="<?= BASE_URL ?>assets/images/tellyon1_logo.jpg" width="40" height="40"/>
                     </p>
                     
                 </div>
@@ -230,14 +231,14 @@
                     
                     <div class="social-icons">
                         
-                        <a href="#" class="social-btn">
+                        <!-- <a href="#" class="social-btn">
                             X
                         </a>
                         
                         <a href="#" class="social-btn">
                             in
-                        </a>
-                        
+                        </a> -->
+                        Coming Soon
                     </div>
                     
                 </div>

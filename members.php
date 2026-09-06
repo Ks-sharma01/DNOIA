@@ -22,7 +22,7 @@ require_once __DIR__ . '/includes/header.php';
     <h2 class="text-center fw-bold mb-4"
        style="color: #f7931e;">
 
-       Criteria
+      Membership Criteria
 
    </h2>
     <div class="container bg-white shadow-sm">
@@ -32,7 +32,7 @@ require_once __DIR__ . '/includes/header.php';
             <div class="col-12 p-4 d-flex justify-content-center align-items-center">
 
                 <img
-                    src="<?= BASE_URL ?>assets/images/criteria.png"
+                    src="<?= BASE_URL ?>assets/images/membership_criteria.png"
                     alt="Membership Criteria"
                     class="img-fluid mx-auto"
                     style="  width: 100%;
@@ -53,30 +53,85 @@ require_once __DIR__ . '/includes/header.php';
     <h2 class="text-center fw-bold mb-4"
        style="color: #f7931e;">
 
-       Advantages
+      Membership Advantages
 
    </h2>
-    <div class="container bg-white shadow-sm">
-        <div class="row align-items-center">
+    <section class="py-4 bg-light">
+    <?php require "data/member-data.php"; ?>
+    <div class="container">
+        <div class="table-responsive">
 
-            <!-- Image -->
-            <div class="col-12 p-4 d-flex justify-content-center align-items-center">
+            <table class="table table-hover table-bordered mb-0 align-middle">
 
-                <img
-                    src="<?= BASE_URL ?>assets/images/advantages.png"
-                    alt="Membership Advantages"
-                    class="img-fluid mx-auto"
-                    style="  width: 100%;
-                    max-width: 700px;
-                    height: auto;
-                    object-fit: contain;"
-                >
+                <thead>
 
-            </div>
+                    <tr class="text-center">
 
-        </div>
+                        <th
+                            class="py-3 text-white fw-semibold"
+                            style="background-color: #173E76;">
+                            S.No
+                        </th>
+
+                        <th
+                            class="py-3 text-white fw-semibold"
+                            style="background-color: #173E76;">
+                            Benefit
+                        </th>
+
+                        <th
+                            class="py-3 text-white fw-semibold"
+                            style="background-color: #173E76;">
+                            What it means for the MSO
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <?php if(!empty($membership_Advantages)): ?>
+                        <?php $count = 1; ?>
+                    <?php foreach ($membership_Advantages as $industryUpdate): ?>
+
+                        <tr>
+
+                            <td class="py-3 px-3">
+                                <?=  $count++ ?>
+                            </td>
+
+                            <td class="py-3 px-3">
+                                
+                                    <?= htmlspecialchars($industryUpdate['benefit']) ?>
+
+                            </td>
+
+                            <td class="py-3 px-3">
+                                
+                                    <?= htmlspecialchars($industryUpdate['description']) ?>
+
+                            </td>
+
+                        </tr>
+
+                    <?php endforeach; ?>
+
+                    <?php else: ?>
+                         <tr>
+                            <td colspan="2" class="text-center py-4" style="color: #173E76">
+                                No membership advantages found.
+                            </td>
+                        </tr>
+                    <?php endif; ?>
+
+                </tbody>
+
+            </table>
 
     </div>
+
+</section>
 
 </div>
 
@@ -85,7 +140,7 @@ require_once __DIR__ . '/includes/header.php';
     <h2 class="text-center fw-bold mb-4"
        style="color: #f7931e;">
 
-       Members
+      Our Members
 
    </h2>
    

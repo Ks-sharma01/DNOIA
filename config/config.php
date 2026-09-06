@@ -1,3 +1,3 @@
 <?php
 
-define('BASE_URL', 'http://localhost/DNOIA/');
+define('BASE_URL', 'http://localhost/DNOAI/');

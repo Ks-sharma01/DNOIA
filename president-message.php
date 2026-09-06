@@ -25,8 +25,8 @@ require_once __DIR__ . '/includes/header.php';
             <div class="col-md-4 p-4 d-flex justify-content-center">
 
                 <img
-                    src="<?= BASE_URL ?>assets/images/Mr.-Anirudh-Sinh-Jadeja.png"
-                    alt="AIDCF President"
+                    src="<?= BASE_URL ?>assets/images/directors/ravi_gupta.jpg"
+                    alt="DDC President"
                     class="img-fluid"
                     style="height: 400px; width: 300px; object-fit: cover;"
                 >
@@ -44,60 +44,30 @@ require_once __DIR__ . '/includes/header.php';
                     <h1
                         class="fw-semibold mb-2"
                         style="color: #f59a32;">
-                        Mr. Anirudhsinh Jadeja
+                        Mr. Ravi Gupta
                     </h1>
 
                     <h5
                         class="fw-semibold mb-3"
                         style="color: #f5a04b;">
-                        Managing Director, GTPL Hathway Limited; President, AIDCF
+                        CEO & Founder, DDC CATV Network Pvt. Ltd, DONAI
                     </h5>
 
                     <p
                         class="mb-3 text-dark lh-base"
                         style="text-align: justify;">
-                        In an era where digital transformation is reshaping how we
-                        communicate and connect, the broadcasting industry has a
-                        pivotal role in driving progress. At AIDCF, we envision to
-                        lead India's digital cable and broadband industry into a
-                        future where technology, accessibility, and quality converge
-                        to deliver exceptional, user-centered digital experiences.
-                        This ambitious vision guides our efforts to foster a
-                        broadcasting environment that champions innovation and
-                        inclusivity.
+                        Ravi founded DDC CATV Network Pvt Ltd in 1993 when the Cable TV industry was emerging on the scene in Indian Metros and has been the frontrunner in nurturing it by keeping the pace with technology and bringing professionalism. Ravi is among the first to set up a MPEG4 digital Head and based on advanced state-of-the-an technology in a data centric environment with high reliability infrastructure.
                     </p>
 
                     <p
                         class="mb-3 text-dark lh-base"
                         style="text-align: justify;">
-                        The broadcasting landscape in India is undergoing rapid
-                        evolution. From discussions on the National Broadcasting
-                        Policy and the Broadcasting Services Regulation Bill to the
-                        debates on integrating OTT and news platforms within the
-                        regulatory fold, the industry is aligning itself to meet
-                        the demands of a digital-first world. These developments
-                        underscore the importance of defining a new approach that
-                        considers the unique needs of both traditional and digital
-                        broadcasting players while ensuring fair competition and
-                        consumer protection.
+                        He is also associated with the Digital Network Operators Association of India (DNOAI), where he contributes to strengthening the digital network operator community and promoting collaboration, growth, and professional development within the industry.
+
+                        With his experience and leadership, Mr. Gupta focuses on addressing industry challenges, encouraging technological advancement, and creating opportunities for digital network operators across India. His vision is centered on building a stronger, more organized, and future-ready digital network ecosystem.
                     </p>
 
-                    <p
-                        class="mb-0 text-dark lh-base"
-                        style="text-align: justify;">
-                        As the broadcasting landscape continues to evolve, so too
-                        must our strategies and policies. This is a time for
-                        dynamic collaboration, informed decision-making, and
-                        proactive initiatives to address emerging challenges and
-                        harness new opportunities. AIDCF is driven to work closely
-                        with all stakeholders and stands as a bridge between
-                        industry players and regulatory bodies, facilitating
-                        dialogue, aligning goals, and creating pathways to support
-                        the sustainable growth of the industry. Together with our
-                        members and partners, we are building a resilient,
-                        inclusive and future-ready industry that honors the
-                        diversity, needs, and aspirations of all Indians.
-                    </p>
+                   
 
                 </div>
 

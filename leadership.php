@@ -164,18 +164,20 @@ require_once __DIR__ . '/includes/header.php';
     </div>
 
 </section>
-<section class="py-4 bg-light">
+
+
+<!-- <section class="py-4 bg-light">
 
     <div class="container">
 
-        <!-- Heading -->
+        
         <h2
             class="text-center fw-semibold mb-4"
             style="color: #f59a32;">
             Legal & Regulatory Committee
         </h2>
 
-        <!-- Table -->
+        
         <div class="table-responsive">
 
             <table class="table table-hover table-bordered mb-0 align-middle">
@@ -231,7 +233,7 @@ require_once __DIR__ . '/includes/header.php';
 
     </div>
 
-</section>
+</section> -->
 
 <?php
 

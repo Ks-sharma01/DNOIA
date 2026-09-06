@@ -2,7 +2,7 @@
 
 require_once __DIR__ . "/config/config.php";
 
-$pageTitle = "About - AIDCF";
+$pageTitle = "About - DNOAI";
 
 include __DIR__ . "/includes/header.php";
 
@@ -15,10 +15,9 @@ include __DIR__ . "/includes/header.php";
 
     <img
         src="<?= BASE_URL ?>assets/images/flash_lighting.jpg"
-        alt="AIDCF"
+        alt="DNOAI"
         class="img-fluid w-100 d-block"
-        style="height: 180px; object-fit: cover;"
-    >
+        style="height: 180px; object-fit: cover;">
 
 </div>
 
@@ -30,127 +29,29 @@ include __DIR__ . "/includes/header.php";
     <div class="container">
 
 
-<!-- DONAI -->
+        <!-- DONAI -->
 
-
-<div class="mb-5">
-
-    <h3 class="fw-bold border-start border-4 border-info ps-3 mb-3" style="color: #F2A03A;">
-        DNOIA
-    </h3>
-
-
-    <!-- About DONAI -->
-
-    <div
-        class="d-flex justify-content-between align-items-center
-               p-3 bg-white border rounded-3 shadow-sm"
-        data-bs-toggle="collapse"
-        data-bs-target="#contentId"
-        role="button"
-        aria-expanded="false"
-        aria-controls="contentId"
-    >
-
-        <span class="fw-semibold" style="color: #173E76;">
-            About DNOIA
-        </span>
-
-            <i class="bi bi-chevron-down section-arrow"></i>
-
-    </div>
-
-
-    <div
-        class="collapse" id="contentId">
-
-        <div class="bg-white border border-top-0 rounded-bottom-3
-                px-4 px-md-5 py-4">
-
-            <p class="lh-lg">
-                Digital Network Operator Installation of India (DNOIA) is India’s apex body
-                for Digital Multi System Operators (MSOs).
-            </p>
-
-            <p class="lh-lg">
-                DNOIA works towards the overall growth of the sector and creates
-                an environment for not only complete digitisation of cable TV
-                under regulatory guidelines but also delivers the benefits of
-                digital services including broadband and other value-added
-                services to the people of India thus fulfilling the dream of
-                ‘True Digital India.’
-            </p>
-
-            <p class="lh-lg">
-                The federation is the official voice for the Indian digital cable
-                TV industry and interacts with ministries, policy makers,
-                regulators, financial institutions and technical bodies. It also
-                provides a platform for discussion and exchange of ideas between
-                these bodies and the service providers, who share a common
-                interest in the development of digital cable TV in the country.
-            </p>
-
-            <p class="lh-lg">
-                It also collaborates with other industry associations such as
-                IBF, CII, FICCI, ASSOCHAM association etc., with the objective
-                of presenting an industry consensus view to the government on
-                crucial issues relating to the growth and development of the
-                industry.
-            </p>
-
-            <p class="mb-0 lh-lg">
-                The members of the federation have a combined market share of
-                &gt; 80%.
-            </p>
-
-        </div>
-
-    </div>
-
-</div>
-
-
-
-        <!-- CABLE TV INDUSTRY -->
 
         <div class="mb-5">
 
             <h3 class="fw-bold border-start border-4 border-info ps-3 mb-3" style="color: #F2A03A;">
-                Cable TV Industry
+                DNOAI
             </h3>
 
 
-            <div class="bg-white rounded-3 p-4 mb-3">
-
-                <h5 class="fw-bold mb-3" style="color: #173E76;">
-                    Overview of the Broadcasting Sector
-                </h5>
-
-                <p class="text-secondary lh-lg mb-0">
-                    The broadcasting sector in India is a diverse and rapidly evolving
-                    industry that includes cable television, direct-to-home (DTH)
-                    services, satellite broadcasting, and over-the-top (OTT) platforms.
-                    With over a billion people, India remains one of the largest media
-                    markets globally.
-                </p>
-
-            </div>
-
-
-            <!-- Stakeholders -->
+            <!-- About DONAI -->
 
             <div
                 class="d-flex justify-content-between align-items-center
-                       p-3 bg-white border rounded-3 shadow-sm"
+               p-3 bg-white border rounded-3 shadow-sm"
                 data-bs-toggle="collapse"
-                data-bs-target="#stakeholdersId"
+                data-bs-target="#contentId"
                 role="button"
                 aria-expanded="false"
-                aria-controls="stakeholdersId"
-            >
+                aria-controls="contentId">
 
                 <span class="fw-semibold" style="color: #173E76;">
-                    The Key Stakeholders in the Broadcasting Sector
+                    About DNOAI
                 </span>
 
                 <i class="bi bi-chevron-down section-arrow"></i>
@@ -158,157 +59,41 @@ include __DIR__ . "/includes/header.php";
             </div>
 
 
-            <div class="collapse" id="stakeholdersId">
+            <div
+                class="collapse" id="contentId">
 
                 <div class="bg-white border border-top-0 rounded-bottom-3
-                            px-4 px-md-5 py-4">
+                px-4 px-md-5 py-4">
 
                     <p class="lh-lg">
-
-                        <strong class="text-dark">
-                            1. Broadcasters:
-                        </strong>
-
-                        These entities create and aggregate content for TV channels.
-                        They can either produce content in-house or acquire it from
-                        third-party content producers. Broadcasters operate under
-                        licenses regulated by the Ministry of Information and
-                        Broadcasting (MIB).
-
+                        The Digital Network Operators Association of India (DNOIA) is an industry association dedicated to representing, supporting, and strengthening digital network operators across India. The association provides a common platform for network operators, cable operators, and digital service providers to collaborate, share knowledge, address industry challenges, and contribute to the growth of India’s digital connectivity ecosystem.
                     </p>
-
 
                     <p class="lh-lg">
-
-                        <strong class="text-dark">
-                            2. Distribution Platform Operators (DPOs):
-                        </strong>
-
-                        DPOs are intermediaries responsible for delivering content
-                        from broadcasters to consumers. They include:
-
+                        DNOIA works towards promoting the interests of its members by encouraging technological advancement, professional standards, regulatory awareness, and sustainable business practices. It aims to facilitate constructive dialogue between industry stakeholders, government authorities, regulators, technology providers, and other organizations.
                     </p>
-
-
-                    <ul class="lh-lg">
-
-                        <li class="mb-2">
-
-                            <strong class="text-dark">
-                                Multi-System Operators (MSOs):
-                            </strong>
-
-                            These are large-scale cable TV operators that manage
-                            networks of Local Cable Operators (LCOs).
-
-                        </li>
-
-
-                        <li class="mb-2">
-
-                            <strong class="text-dark">
-                                Local Cable Operators (LCOs):
-                            </strong>
-
-                            Smaller cable operators connect directly with consumers
-                            at a local level, providing customized packages based on
-                            regional demand.
-
-                        </li>
-
-
-                        <li class="mb-2">
-
-                            <strong class="text-dark">
-                                Direct-to-Home (DTH) Providers:
-                            </strong>
-
-                            Companies such as Tata Sky and Dish TV operate
-                            satellite-based services.
-
-                        </li>
-
-                    </ul>
-
 
                     <p class="lh-lg">
-
-                        <strong class="text-dark">
-                            3. Government and Regulatory Bodies:
-                        </strong>
-
-                        The broadcasting sector in India is overseen by MIB and TRAI.
-
+                        With the rapid evolution of broadband, cable television, digital infrastructure, and connected services, DNOIA seeks to empower network operators to adapt to changing technologies and market requirements. Through industry engagement, knowledge sharing, and collective representation, the association strives to build a stronger, more efficient, and future-ready digital network ecosystem in India.
                     </p>
 
 
-                    <ul class="lh-lg">
-
-                        <li class="mb-2">
-
-                            <strong class="text-dark">
-                                Ministry of Information and Broadcasting (MIB):
-                            </strong>
-
-                            MIB oversees licensing and content regulation for
-                            broadcasters.
-
-                        </li>
-
-
-                        <li class="mb-2">
-
-                            <strong class="text-dark">
-                                Telecom Regulatory Authority of India (TRAI):
-                            </strong>
-
-                            TRAI manages tariff regulation, including policies like
-                            the New Tariff Order (NTO).
-
-                        </li>
-
-                    </ul>
-
-
-                    <p class="lh-lg">
-
-                        <strong class="text-dark">
-                            4. Consumers/Viewers:
-                        </strong>
-
-                        As the end-users, consumers play the most crucial role in the
-                        broadcasting ecosystem.
-
-                    </p>
-
-
-                    <p class="mb-0 lh-lg">
-
-                        Distribution sector will benefit from higher subscription
-                        revenues, more efficiencies, better margins, opportunity to
-                        sell bundled services and more accurate data collection.
-
-                    </p>
 
                 </div>
 
             </div>
 
-
-            <!-- Cable TV Industry in India -->
-
             <div
-                class="d-flex justify-content-between shadow-sm border align-items-center
-                       p-3 bg-white rounded-3 mt-3"
+                class="d-flex justify-content-between align-items-center
+               p-3 bg-white border rounded-3 shadow-sm mt-3"
                 data-bs-toggle="collapse"
-                data-bs-target="#cabletvId"
+                data-bs-target="#becomeMemberId"
                 role="button"
                 aria-expanded="false"
-                aria-controls="cabletvId"
-            >
+                aria-controls="becomeMemberId">
 
                 <span class="fw-semibold" style="color: #173E76;">
-                    Cable TV Industry in India
+                    Benefit of Becoming Members of DNOAI
                 </span>
 
                 <i class="bi bi-chevron-down section-arrow"></i>
@@ -316,108 +101,69 @@ include __DIR__ . "/includes/header.php";
             </div>
 
 
-            <div class="collapse" id="cabletvId">
+            <div
+                class="collapse" id="becomeMemberId">
 
                 <div class="bg-white border border-top-0 rounded-bottom-3
                             px-4 px-md-5 py-4">
 
                     <p class="lh-lg">
 
-                        The cable television industry is a cornerstone of India’s
-                        broadcasting sector, playing a critical role in delivering
-                        diverse and affordable content to over 200 million households.
-                        It operates alongside other platforms like Direct-to-Home
-                        (DTH) and over-the-top (OTT) services, maintaining a strong
-                        presence despite the rapidly evolving media landscape.
+                        <strong class="text-dark">
+                            A powerful one-line membership message
+                        </strong></br>
+                        "DNOAI membership gives every MSO a stronger voice, better information, expert support and a seat at the table where the future of the industry is being shaped."
 
                     </p>
-
-
-                    <h6 class="fw-bold text-dark mt-4">
-                        1. Digital Transformation
-                    </h6>
-
                     <p class="lh-lg">
 
-                        India’s cable TV industry has been significantly shaped by
-                        the Cable Television Networks (Regulation) Act, 1995 and
-                        subsequent digitalization mandates. The transition from analog
-                        to digital broadcasting has modernized the sector, ensuring
-                        that viewers receive higher quality services.
+                        <strong class="text-dark">
+                            1. Representation:
+                        </strong>
+
+                        Government & Regulatory Advocacy gains a unified voice in discussions with government bodies and regulatory authorities such as MIB and TRAI, while building valuable connections with fellow industry professionals.
 
                     </p>
 
 
                     <p class="lh-lg">
 
-                        Data shows that 98% of urban households now access digital
-                        cable or satellite services, while rural areas are catching
-                        up rapidly due to government and industry efforts.
+                        <strong class="text-dark">
+                            2. Protection:
+                        </strong>
+
+                        Legal, Regulatory & Industry Support Stay better prepared to address legal, regulatory, compliance, and industry-related challenges through collective representation and support.
 
                     </p>
-
-
-                    <h6 class="fw-bold text-dark mt-4">
-                        2. Industry Structure
-                    </h6>
-
-                    <p class="lh-lg">
-                        The cable TV industry in India is organized into a layered
-                        structure comprising:
-                    </p>
-
-
-                    <ul class="lh-lg">
-
-                        <li class="mb-2">
-
-                            <strong class="text-dark">
-                                Multi-System Operators (MSOs):
-                            </strong>
-
-                            These large-scale operators manage cable networks,
-                            distributing signals to Local Cable Operators (LCOs)
-                            and directly to subscribers in certain regions.
-
-                        </li>
-
-
-                        <li class="mb-2">
-
-                            <strong class="text-dark">
-                                Local Cable Operators (LCOs):
-                            </strong>
-
-                            LCOs are integral to the cable TV ecosystem, especially
-                            in rural areas. They have strong community connections,
-                            offering tailored packages that align with regional
-                            preferences.
-
-                        </li>
-
-                    </ul>
-
-
-                    <h6 class="fw-bold text-dark mt-4">
-                        3. Regulatory Framework
-                    </h6>
 
                     <p class="lh-lg">
 
-                        The industry is governed by the Telecom Regulatory Authority
-                        of India (TRAI), which implements policies to balance consumer
-                        interests, industry growth, and fair competition.
+                        <strong class="text-dark">
+                            3. Information:
+                        </strong>
+
+                        Early Alerts & Industry Intelligence receives timely regulatory updates, important notifications, industry developments, policy changes, and valuable market intelligence to make informed business decisions.
 
                     </p>
 
 
-                    <p class="mb-0 lh-lg">
+                    <p class="lh-lg">
 
-                        The cable TV industry in India remains resilient and adaptable,
-                        evolving with technological advancements and regulatory
-                        changes. Cable TV continues to be a vital part of the Indian
-                        broadcasting landscape.
+                        <strong class="text-dark">
+                            4. Collaboration:
+                        </strong>
 
+                        Networking, Knowledge Sharing & Solutions connect with network operators, MSOs, technology providers, and industry experts to exchange knowledge, share experiences, and develop collaborative solutions.
+
+                    </p>
+
+                    <p class="lh-lg">
+
+                        <strong class="text-dark">
+                            4. Growth:
+                        </strong>
+
+                        Technology, Business Opportunities & Future-Ready Transformation explore emerging technologies, new business opportunities, and industry partnerships while preparing your network operations for a future-ready MSO and digital ecosystem.
                     </p>
 
                 </div>
@@ -425,7 +171,6 @@ include __DIR__ . "/includes/header.php";
             </div>
 
         </div>
-
 
 
         <!--  VISION & MISSION -->
@@ -446,8 +191,7 @@ include __DIR__ . "/includes/header.php";
                 data-bs-target="#visionId"
                 role="button"
                 aria-expanded="false"
-                aria-controls="visionId"
-            >
+                aria-controls="visionId">
 
                 <span class="fw-semibold" style="color: #173E76;">
                     Vision
@@ -460,21 +204,20 @@ include __DIR__ . "/includes/header.php";
 
             <div class="collapse" id="visionId">
 
-                    <div class="bg-white border border-top-0 rounded-bottom-3
+                <div class="bg-white border border-top-0 rounded-bottom-3
                         px-4 px-md-5 py-4">
 
-                    <p class="mb-0 lh-lg">
+                    <p class="mb-1 lh-lg">
 
-                        AIDCF envisions a fully connected India, achieving 100%
-                        television penetration across 340 million households, with
-                        every home accessing dependable, high-quality digital content
-                        and broadband services. By fostering a robust and inclusive
-                        broadcasting environment, AIDCF aims to expand viewer choice,
-                        elevate content standards, and support the growth of local and
-                        regional broadcasting, creating a dynamic industry that reaches
-                        every corner of the country with content that resonates
-                        culturally, educates, and informs.
+                        The Digital Network Operators Association of India (DNOAI) envisions a strong, united, innovative, and future-ready digital network industry that plays a vital role in shaping India’s connected future.
+                    </p>
+                    <p class="mb-1 lh-lg">
 
+                        Our vision is to create an inclusive platform where Digital Network Operators, MSOs, cable operators, and other industry stakeholders can come together to address common challenges, exchange knowledge, embrace emerging technologies, and build sustainable growth opportunities.
+                    </p>
+                    <p class="mb-1 lh-lg">
+
+                        DNOIA aims to strengthen the voice of network operators through effective representation and constructive engagement with government authorities, regulators, technology partners, and other stakeholders. We seek to promote a transparent, progressive, and collaborative environment that supports regulatory awareness, technological advancement, and professional excellence.
                     </p>
 
                 </div>
@@ -491,8 +234,7 @@ include __DIR__ . "/includes/header.php";
                 data-bs-target="#missionId"
                 role="button"
                 aria-expanded="false"
-                aria-controls="missionId"
-            >
+                aria-controls="missionId">
 
                 <span class="fw-semibold" style="color: #173E76;">
                     Mission
@@ -509,7 +251,7 @@ include __DIR__ . "/includes/header.php";
                             px-4 px-md-5 py-4">
 
                     <p class="lh-lg">
-                        AIDCF's mission is to drive the advancement of India's
+                        DNOAI's mission is to drive the advancement of India's
                         digital cable and broadband sector by:
                     </p>
 
@@ -518,54 +260,43 @@ include __DIR__ . "/includes/header.php";
 
                         <li class="mb-3">
 
-                            <strong class="text-dark">
-                                Enabling Nationwide Access:
-                            </strong>
-
-                            Championing the complete digitization of cable and
-                            broadband services, ensuring every household across
-                            India has equitable access to quality digital content.
+                            Represent the interests of digital network operators and provide a unified platform for collective representation.
 
                         </li>
 
 
                         <li class="mb-3">
 
-                            <strong class="text-dark">
-                                Shaping a Digital Future:
-                            </strong>
-
-                            Collaborating with policymakers and regulatory bodies
-                            to shape an industry landscape that supports digital
-                            innovation, sustainable growth, and inclusion in the
-                            digital economy.
+                            Promote technological innovation and encourage the adoption of modern digital networking solutions.
 
                         </li>
 
 
                         <li class="mb-3">
 
-                            <strong class="text-dark">
-                                Promoting Standards of Excellence:
-                            </strong>
-
-                            Setting benchmarks in service quality, transparency,
-                            and efficiency that strengthen the digital cable
-                            ecosystem and enhance consumer trust.
+                            Support and empower network operators through knowledge sharing, training, and industry collaboration.
 
                         </li>
 
 
                         <li class="mb-0">
 
-                            <strong class="text-dark">
-                                Empowering Communities:
-                            </strong>
+                            Facilitate constructive dialogue between network operators, government authorities, regulators, and other industry stakeholders.
 
-                            Leveraging technology to bridge digital divides and
-                            empowering communities through accessible, relevant,
-                            and reliable digital services that improve lives.
+                        </li>
 
+                        <li class="mb-0">
+
+                            Promote professional standards, transparency, and sustainable business practices across the industry.
+                        </li>
+
+                        <li class="mb-0">
+
+                            Address industry challenges collectively and work toward practical solutions that benefit network operators and consumers. </li>
+
+                        <li class="mb-0">
+
+                            Contribute to Digital India by strengthening the country's digital connectivity and infrastructure.
                         </li>
 
                     </ol>

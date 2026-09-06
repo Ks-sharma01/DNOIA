@@ -1,10 +1,10 @@
 <?php
 
 $twitter_profile = [
-    'name' => 'DNOIA',
-    'username' => '@dnoia_in',
-    'image' => 'assets/images/download.jpg',
-    'description' => "Digital Network Operator Installation of India (DNOIA) is India's apex body for Digital Multi System Operators (MSOs) & commands 80% market share.",
+    'name' => 'DNOAI',
+    'username' => '@dnoai_in',
+    'image' => 'assets/images/dnoai_logo.png',
+    'description' => "Digital Network Operator Association of India (DNOAI) is India's apex body for Digital Multi System Operators (MSOs) & commands 80% market share.",
     'profile_url' => 'https://x.com/AIDCF_IN'
 ];
 
@@ -33,7 +33,7 @@ $twitter_posts = [
     ],
     [
         'date' => '5 Nov',
-        'content' => 'In view of the changing TV distribution landscape, AIDCF is expanding its membership to include IPTV Operators in addition to MSOs. Interested Operators may apply.',
+        'content' => 'In view of the changing TV distribution landscape, DNOAI is expanding its membership to include IPTV Operators in addition to MSOs. Interested Operators may apply.',
         'url' => 'https://x.com/AIDCF_IN/status/1985962974402789457'
     ],
 
@@ -41,10 +41,10 @@ $twitter_posts = [
 
 
 $linkedin_profile = [
-    'name' => 'Digital Network Operator Installation of India (DNOIA)',
+    'name' => 'Digital Network Operator Association of India (DNOAI)',
     'followers' => '236',
     'description' => "India's apex body for Digital Multi System Operators (MSOs)",
-    'website' => 'http://www.dnoia.com',
+    'website' => 'http://www.dnoai.com',
     'url' => 'https://www.linkedin.com/company/aidcf/'
 ];
 

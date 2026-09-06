@@ -9,7 +9,7 @@
           content="width=device-width, initial-scale=1.0">
 
     <title>
-        <?= $pageTitle ?? 'AIDCF' ?>
+        <?= $pageTitle ?? 'DNOAI' ?>
     </title>
 
     <!-- Bootstrap CSS -->
@@ -44,9 +44,9 @@
         href="index.php">
         
         <img
-        src="<?= BASE_URL ?>assets/images/download.jpg"
-        alt="DNOIA Logo"
-        class="logo text-white" style="height: 50px; width: 50px">
+        src="<?= BASE_URL ?>assets/images/dnoai_logo.png"
+        alt="DNOAI Logo"
+        class="logo text-white rounded-5" style="height: 60px; width: 60px">
         
     </a>
     
@@ -105,17 +105,17 @@
                         <a
                             class="dropdown-item text-muted"
                             href="<?= BASE_URL ?>about.php#contentId">
-                            DNOIA
+                            DNOAI
                         </a>
                     </li>
 
-                    <li>
+                    <!-- <li>
                         <a
                             class="dropdown-item text-muted"
                             href="<?= BASE_URL ?>about.php#stakeholdersId">
                             Cable TV Industry
                         </a>
-                    </li>
+                    </li> -->
 
                     <li>
                         <a
@@ -144,8 +144,8 @@
                     <li>
                         <a
                             class="dropdown-item"
-                            href="<?= BASE_URL ?>secretariat.php">
-                            Secretariat
+                            href="#">
+                            Coming Soon
                         </a>
                     </li>
 
@@ -225,9 +225,9 @@
                         <li>
                             <a
                                 class="dropdown-item"
-                                href="<?= BASE_URL ?>news-media.php">
+                                href="#">
                                 
-                                News & Media
+                                Coming Soon
                                 
                             </a>
                         </li>
@@ -235,10 +235,10 @@
                         <li>
                             <a
                             class="dropdown-item"
-                            href="<?= BASE_URL ?>dnoia-press-releases.php">
+                            href="#">
 
                                
-                             DNOIA Press Releases
+                             Coming Soon
 
                             </a>
                         </li>
@@ -246,9 +246,9 @@
                         <li>
                             <a
                             class="dropdown-item"
-                                href="<?= BASE_URL ?>industry-updates.php">
+                                href="#">
                                 
-                                Industry Updates
+                                Coming Soon
                                 
                             </a>
                         </li>
@@ -256,19 +256,9 @@
                         <li>
                             <a
                                 class="dropdown-item"
-                                href="<?= BASE_URL ?>consultation-papers.php">
+                                href="#">
 
-                                Consultation Papers & Recommendations
-
-                            </a>
-                        </li>
-
-                        <li>
-                            <a
-                                class="dropdown-item"
-                                href="<?= BASE_URL ?>rules-regulations.php">
-
-                                Rules & Regulations
+                                Coming Soon
 
                             </a>
                         </li>
@@ -276,9 +266,19 @@
                         <li>
                             <a
                                 class="dropdown-item"
-                                href="<?= BASE_URL ?>relevant-websites.php">
+                                href="#">
 
-                                Relevent Websites
+                                Coming Soon
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                class="dropdown-item"
+                                href="#">
+
+                                Coming Soon
 
                             </a>
                         </li>
@@ -306,12 +306,16 @@
 
         </div>
         <div class="d-none d-lg-flex gap-4">
-            <a href="#">
+            <!-- <a href="#">
                 <i class="bi bi-twitter-x text-white"></i>
             </a>
             <a href="#">
                 <i class="bi bi-linkedin bg-white"></i>
-            </a>
+            </a> -->
+            <!-- <span class="text-white">
+
+                Coming Soon
+            </span> -->
         </div>
     </div>
 

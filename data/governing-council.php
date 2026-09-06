@@ -3,39 +3,36 @@
 $governingCouncil = [
 
     [
-        'name' => 'Mr. Anirudhsinh Jadeja',
-        'position' => 'Managing Director & CEO, GTPL Hathway Limited; President, AIDCF'
+        'name' => 'Mr. Ravi Gupta',
+        'position' => 'CEO & Founder, DDC CATV Network Pvt. Ltd'
     ],
 
     [
-        'name' => 'Mr. S.N. Sharma',
-        'position' => 'CEO, DEN Networks Limited'
+        'name' => 'Mr. Sanjiv Narain',
+        'position' => 'Founder, Axom ISPL'
+    ],
+    [
+        'name' => 'Mr. Yogesh Sharma',
+        'position' => 'CEO, Siti Networks Limited'
+    ],
+    [
+        'name' => 'Ms. Bethany Brooks',
+        'position' => 'Co-Founder, Axom ISPL'
+    ],
+    [
+        'name' => 'Mr. Nirlep Kumar',
+        'position' => 'COO, DDC CATV Network Pvt. Ltd'
+    ],
+    [
+        'name' => 'Mr. Charles Bernardi',
+        'position' => 'Business Manager, Axom ISPL'
+    ],
+    [
+        'name' => 'Ms. Rekha Gupta',
+        'position' => 'CFO, DDC CATV Network Pvt. Ltd'
     ],
 
-    [
-        'name' => 'Mr. Jagdish Paliya',
-        'position' => 'Managing Director & CEO, UCN Cable Networks Private Limited'
-    ],
 
-    [
-        'name' => 'Mr. Padmakumar',
-        'position' => 'Chief Operating Officer, Kerala Communicators Cable Limited'
-    ],
-
-    [
-        'name' => 'Mr. Sanjay Goyal',
-        'position' => 'Group CFO, Fastway Transmissions Private Limited'
-    ],
-
-    [
-        'name' => 'Mr. Sankaranarayana Gopalan',
-        'position' => 'Vice Chairman, Asianet Satellite Communications Limited'
-    ],
-
-    [
-        'name' => 'Mr. Tavinderjit Panesar',
-        'position' => 'CEO, Hathway Cable & Datacom Limited'
-    ]
 
 ];
 

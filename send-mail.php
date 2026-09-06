@@ -53,13 +53,7 @@ try {
     $mail->Password = 'qijbfnbianemkodb';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
-    $mail->SMTPOptions = [
-        'ssl' => [
-            'verify_peer' => false,
-            'verify_peer_name' => false,
-            'allow_self_signed' => true,
-        ],
-    ];
+  
 
     $mail->setFrom('ksgamingarena01@gmail.com', 'Digital Network Operator Installation of India (DNOIA)');
     $mail->addAddress('ks009232@gmail.com');
@@ -101,9 +95,12 @@ try {
         'success' => true,
         'message' => 'Thank you! Your form has been submitted successfully.'
     ]);
+
 } catch (Exception $e) {
     echo json_encode([
         'success' => false,
-        'message' => 'Sorry, your message could not be sent. Please try again.'
+        'message' => $mail -> ErrorInfo
     ]);
+      
 }
+
