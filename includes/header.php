@@ -44,9 +44,10 @@
         href="index.php">
         
         <img
-        src="<?= BASE_URL ?>assets/images/dnoai_logo.png"
-        alt="DNOAI Logo"
-        class="logo text-white rounded-5" style="height: 60px; width: 60px">
+    src="<?= BASE_URL ?>assets/images/logo3.png"
+    alt="DNOAI Logo"
+    class="rounded-5"
+    width="70" height="70" style="object-fit: cover;">
         
     </a>
     
@@ -109,13 +110,13 @@
                         </a>
                     </li>
 
-                    <!-- <li>
+                    <li>
                         <a
                             class="dropdown-item text-muted"
-                            href="<?= BASE_URL ?>about.php#stakeholdersId">
-                            Cable TV Industry
+                            href="<?= BASE_URL ?>about.php#coreValuesId">
+                            Core Values of DNOAI
                         </a>
-                    </li> -->
+                    </li>
 
                     <li>
                         <a
@@ -141,13 +142,13 @@
                         </a>
                     </li>
 
-                    <li>
+                    <!-- <li>
                         <a
                             class="dropdown-item"
-                            href="#">
-                            Coming Soon
+                            href="<?= BASE_URL ?>secretariat.php">
+                            Secretariat
                         </a>
-                    </li>
+                    </li> -->
 
                 </ul>
 
@@ -199,6 +200,15 @@
 
                             </a>
                         </li>
+                        <li>
+                            <a
+                                class="dropdown-item"
+                                href="<?= BASE_URL ?>members.php#becomememberId">
+                                
+                                Become a Member
+
+                            </a>
+                        </li>
                       
                         
                     </ul>
@@ -225,9 +235,9 @@
                         <li>
                             <a
                                 class="dropdown-item"
-                                href="#">
+                                href="<?= BASE_URL ?>news-media.php">
                                 
-                                Coming Soon
+                                News & Media
                                 
                             </a>
                         </li>
@@ -235,10 +245,10 @@
                         <li>
                             <a
                             class="dropdown-item"
-                            href="#">
+                            href="<?= BASE_URL ?>dnoai-press-releases.php">
 
                                
-                             Coming Soon
+                             DNOAI Press Releases
 
                             </a>
                         </li>
@@ -246,9 +256,9 @@
                         <li>
                             <a
                             class="dropdown-item"
-                                href="#">
+                                href="<?= BASE_URL ?>industry-updates.php">
                                 
-                                Coming Soon
+                                Industry Updates
                                 
                             </a>
                         </li>
@@ -256,19 +266,9 @@
                         <li>
                             <a
                                 class="dropdown-item"
-                                href="#">
+                                href="<?= BASE_URL ?>consultation-papers.php">
 
-                                Coming Soon
-
-                            </a>
-                        </li>
-
-                        <li>
-                            <a
-                                class="dropdown-item"
-                                href="#">
-
-                                Coming Soon
+                                Consultation Papers & Recommendations
 
                             </a>
                         </li>
@@ -276,9 +276,19 @@
                         <li>
                             <a
                                 class="dropdown-item"
-                                href="#">
+                                href="<?= BASE_URL ?>rules-regulations.php">
 
-                                Coming Soon
+                                Rules & Regulations
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                class="dropdown-item"
+                                href="<?= BASE_URL ?>relevant-websites.php">
+
+                                Relevant Websites
 
                             </a>
                         </li>

@@ -3,92 +3,47 @@
 $news_info = [
     [
         "image" => "assets/images/truTv_iptv.jpg",
-        "heading" => "TRAI aims to regulate free ad-supported streaming TV (FAST) apps like Samsung TV Plus",
+        "heading" => "India’s Digital Network Ecosystem Continues to Expand",
         "date" => "06-Apr-26",
-        "description" => "TRAI's position is that this imbalance or distortion of the existing competition between traditional satellite-based TV and internet-based FAST platforms…",
-        "link" => "https://www.medianama.com/2026/04/223-trai-free-ad-supported-streaming-television-fast-apps-samsung-tv/"
+        "description" => "The Digital Network Operators Association of India (DNOAI) continues to work towards creating a stronger and more collaborative…",
+        "link" => ""
     ],
     [
         "image" => "assets/images/truTv_iptv.jpg",
-        "heading" => "MSOs back TRAI move to regulate FAST platforms, seek level playing field",
+        "heading" => "DNOAI Empowering Network Operators Through Collaboration",
         "date" => "06-Apr-26",
-        "description" => "Digital Network Operator Association of India said the consultation paper comprehensively captures the concerns raised by the cable TV industry…",
-        "link" => "https://www.medianama.com/2026/04/224-mso-back-trai-move-to-regulate-fast-platforms-seek-level-playing-field/"
+        "description" => "Digital Network Operator Association of India said the consultation paper comprehensively captures the concerns raised…",
+        "link" => ""
     ],
     [
         "image" => "assets/images/truTv_iptv.jpg",
-        "heading" => "DNOAI moves TDSAT over Waves plan to stream linear TV channels",
+        "heading" => "DNOAI Calls for Greater Collaboration Across the Digital Network Ecosystem",
         "date" => "19-Mar-26",
         "description" => "The battle between traditional television distributors and digital platforms has found its way to the courts, with the All India…",
         "link" => "https://www.medianama.com/2026/03/225-dnoia-moves-tdsat-over-waves-plan-to-stream-linear-tv-channels/"
     ],
     [
         "image" => "assets/images/truTv_iptv.jpg",
-        "heading" => "TDSAT issues notice to Prasar Bharati over WAVES OTT onboarding row",
+        "heading" => "DNOAI Strengthens Its Focus on a Future-Ready Digital Connectivity Ecosystem",
         "date" => "25-Mar-26",
-        "description" => "TDSAT has issued notice to Prasar Bharati following a petition filed by the All India Digital Cable Federation (AIDCF), escalating…",
+        "description" => "DNOAI seeks to encourage constructive dialogue on the development of a robust and sustainable digital network ecosystem…",
         "link" => "https://www.medianama.com/2026/03/226-tdsat-issues-notice-to-prasar-bharati-over-waves-ott-onboarding-row/"
     ],
     [
         "image" => "assets/images/truTv_iptv.jpg",
-        "heading" => "EXCLUSIVE: Cable operators move TDSAT against Prasar Bharati’s WAVES OTT",
+        "heading" => "DNOAI seeks to contribute to the development of a stronger, more connected",
         "date" => "19-Mar-26",
-        "description" => "Digital Network Operator Association of India (DNOAI), an industry body representing multi-system operators (MSOs), has approached the Telecom Disputes Settlement…",
+        "description" => "Digital Network Operator Association of India (DNOAI), an industry body representing multi-system operators (MSOs)…",
         "link" => "https://www.medianama.com/2026/03/227-cable-operators-move-tdsat-against-prasar-bharatis-waves-ott/"
     ],
     [
         "image" => "assets/images/truTv_iptv.jpg",
         "heading" => "Cable Industry in limbo as Government stays silent on AGR burden",
         "date" => "25-Feb-26",
-        "description" => "In its July representation, DNOAI, which represents leading Multi System Operators reaching over 4.5 crore households and accounting for nearly…",
+        "description" => "In its July representation, DNOAI, which represents leading Multi System Operators reaching over 4.5 crore…",
         "link" => "https://www.medianama.com/2026/02/228-cable-industry-in-limbo-as-government-stays-silent-on-agr-burden/"
         
     ],
-    [
-        "image" => "assets/images/truTv_iptv.jpg",
-        "heading" => "Cable Industry in limbo as Government stays silent on AGR burden",
-        "date" => "25-Feb-26",
-        "description" => "In its July representation, DNOAI, which represents leading Multi System Operators reaching over 4.5 crore households and accounting for nearly…",
-        "link" => "https://www.medianama.com/2026/02/228-cable-industry-in-limbo-as-government-stays-silent-on-agr-burden/"
-    ],
-    [
-        "image" => "assets/images/truTv_iptv.jpg",
-        "heading" => "Cable Industry in limbo as Government stays silent on AGR burden",
-        "date" => "25-Feb-26",
-        "description" => "In its July representation, DNOAI, which represents leading Multi System Operators reaching over 4.5 crore households and accounting for nearly…",
-        "link" => "https://www.medianama.com/2026/02/228-cable-industry-in-limbo-as-government-stays-silent-on-agr-burden/"
-    ],
-    [
-        "image" => "assets/images/truTv_iptv.jpg",
-        "heading" => "Cable Industry in limbo as Government stays silent on AGR burden",
-        "date" => "25-Feb-26",
-        "description" => "In its July representation, DNOAI, which represents leading Multi System Operators reaching over 4.5 crore households and accounting for nearly…",
-        "link" => "https://www.medianama.com/2026/02/228-cable-industry-in-limbo-as-government-stays-silent-on-agr-burden/"
-    ],
-    [
-        "image" => "assets/images/truTv_iptv.jpg",
-        "heading" => "Cable Industry in limbo as Government stays silent on AGR burden",
-        "date" => "25-Feb-26",
-        "description" => "In its July representation, DNOAI, which represents leading Multi System Operators reaching over 4.5 crore households and accounting for nearly…",
-        "link" => "https://www.medianama.com/2026/02/228-cable-industry-in-limbo-as-government-stays-silent-on-agr-burden/"
-    ],
-    [
-        "image" => "assets/images/truTv_iptv.jpg",
-        "heading" => "Cable Industry in limbo as Government stays silent on AGR burden",
-        "date" => "25-Feb-26",
-        "description" => "In its July representation, DNOAI, which represents leading Multi System Operators reaching over 4.5 crore households and accounting for nearly…",
-        "link" => "https://www.medianama.com/2026/02/228-cable-industry-in-limbo-as-government-stays-silent-on-agr-burden/"
-    ],
-    [
-        "image" => "assets/images/truTv_iptv.jpg",
-        "heading" => "Cable Industry in limbo as Government stays silent on AGR burden",
-        "date" => "25-Feb-26",
-        "description" => "In its July representation, DNOAI, which represents leading Multi System Operators reaching over 4.5 crore households and accounting for nearly…",
-        "link" => "https://www.medianama.com/2026/02/228-cable-industry-in-limbo-as-government-stays-silent-on-agr-burden/"
-    ],
-  
-   
- 
 ];
 
 // Number of news items per page

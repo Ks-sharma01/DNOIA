@@ -16,13 +16,13 @@ require_once __DIR__ . '/includes/header.php';
 
 </div>
 
-<div class="container-fluid bg-light py-4">
+<!-- <div class="container-fluid bg-light py-4">
 
     <div class="container bg-white shadow-sm">
 
         <div class="row">
 
-            <!-- Image -->
+        
             <div class="col-md-4 p-4 d-flex justify-content-center">
 
                 <img
@@ -35,7 +35,7 @@ require_once __DIR__ . '/includes/header.php';
             </div>
 
 
-            <!-- Content -->
+        
             <div class="col-md-8 p-4">
 
                 <div
@@ -87,7 +87,6 @@ require_once __DIR__ . '/includes/header.php';
 
         <div class="row">
      
-            <!-- Content -->
             <div class="col-md-8 p-4">
 
                 <div
@@ -139,7 +138,6 @@ require_once __DIR__ . '/includes/header.php';
 
             </div>
 
-              <!-- Image -->
             <div class="col-md-4 p-4 d-flex justify-content-center">
 
                 <img
@@ -154,10 +152,32 @@ require_once __DIR__ . '/includes/header.php';
 
     </div>
 
+</div> -->
+
+
+<div class="social-overlay-wrapper">
+
+    <div class="border rounded-2 overflow-auto thin-scrollbar p-3"
+        style="height: 500px;">
+
+        <!-- ALL YOUR EXISTING LINKEDIN CODE -->
+
+    </div>
+
+    <!-- Coming Soon Overlay -->
+    <div class="social-coming-soon">
+        <div class="social-coming-soon-content">
+
+            <i class="bi bi-clock"></i>
+
+            <h3>Coming Soon</h3>
+
+            <p>Secretariat will be available soon.</p>
+
+        </div>
+    </div>
+
 </div>
-
-
-
 
 
 <?php

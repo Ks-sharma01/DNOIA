@@ -25,7 +25,7 @@ require_once __DIR__ . '/includes/header.php';
             <div class="col-md-4 p-4 d-flex justify-content-center">
 
                 <img
-                    src="<?= BASE_URL ?>assets/images/directors/ravi_gupta.jpg"
+                    src="<?= BASE_URL ?>assets/images/directors/sn.jpg"
                     alt="DDC President"
                     class="img-fluid"
                     style="height: 400px; width: 300px; object-fit: cover;"
@@ -38,36 +38,31 @@ require_once __DIR__ . '/includes/header.php';
             <div class="col-md-8 p-4">
 
                 <div
-                    class="overflow-auto thin-scrollbar"
-                    style="height: 400px;">
+                    class="overflow-hidden thin-scrollbar"
+                    style="height: auto;">
 
                     <h1
                         class="fw-semibold mb-2"
                         style="color: #f59a32;">
-                        Mr. Ravi Gupta
+                       Mr. Sanjiv Narain
                     </h1>
 
                     <h5
                         class="fw-semibold mb-3"
                         style="color: #f5a04b;">
-                        CEO & Founder, DDC CATV Network Pvt. Ltd, DONAI
+                         Founder, Axom ISPL | DNOAI
                     </h5>
 
                     <p
                         class="mb-3 text-dark lh-base"
                         style="text-align: justify;">
-                        Ravi founded DDC CATV Network Pvt Ltd in 1993 when the Cable TV industry was emerging on the scene in Indian Metros and has been the frontrunner in nurturing it by keeping the pace with technology and bringing professionalism. Ravi is among the first to set up a MPEG4 digital Head and based on advanced state-of-the-an technology in a data centric environment with high reliability infrastructure.
-                    </p>
+                        Mr. Sanjiv Narain is an experienced entrepreneur and industry professional associated with the digital communications, cable television, and internet services sector. He is the Founder of AXOM ISPL, an internet and ICT service provider based in Guwahati, Assam, offering broadband, cable TV, and IPTV services.</p>
 
                     <p
                         class="mb-3 text-dark lh-base"
                         style="text-align: justify;">
-                        He is also associated with the Digital Network Operators Association of India (DNOAI), where he contributes to strengthening the digital network operator community and promoting collaboration, growth, and professional development within the industry.
-
-                        With his experience and leadership, Mr. Gupta focuses on addressing industry challenges, encouraging technological advancement, and creating opportunities for digital network operators across India. His vision is centered on building a stronger, more organized, and future-ready digital network ecosystem.
-                    </p>
-
-                   
+                        As a Promoter and Director of the Digital Network Operators Association of India (DNOAI), Mr. Narain contributes to the association's efforts to bring digital network operators together and strengthen representation of the industry.
+                        With his experience in the digital network and telecommunications ecosystem, Mr. Narain brings valuable industry perspective to DNOAI, particularly in areas such as network development, digital connectivity, technological advancement, and the growth of the cable and broadband industry.</p>
 
                 </div>
 

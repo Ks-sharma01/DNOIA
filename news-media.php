@@ -24,23 +24,23 @@ require_once __DIR__ . '/includes/header.php';
 
 <?php require "data/news-data.php"; ?>
 
-<div class="container bg-light py-2">
+<!-- <div class="container bg-light py-2">
 
-    <!-- NEWS ITEMS -->
+  
 
     <?php if(!empty($currentNews)): ?>
     <?php foreach ($currentNews as $item): ?>
 
         <div class="card mt-4 border-1 p-2">
 
-            <!-- Date -->
+          
             <div class="card border-1 p-2 mb-2">
                 <span><?= htmlspecialchars($item["date"]) ?></span>
             </div>
 
             <div class="d-flex align-items-start gap-3 pb-2">
 
-                <!-- Image -->
+                
                 <div class="flex-shrink-0">
 
                     <img
@@ -56,7 +56,7 @@ require_once __DIR__ . '/includes/header.php';
 
                 </div>
 
-                <!-- Content -->
+                
                 <div class="flex-grow-1">
 
                     <h5
@@ -101,13 +101,13 @@ require_once __DIR__ . '/includes/header.php';
     <?php endif; ?>
 
 
-    <!-- PAGINATION -->
+   
 
         <nav class="mt-4" aria-label="News pagination">
 
             <ul class="pagination justify-content-center">
 
-                <!-- Previous -->
+                
                 <li class="page-item <?= ($currentPage <= 1) ? 'disabled' : '' ?>">
 
                     <a
@@ -119,7 +119,7 @@ require_once __DIR__ . '/includes/header.php';
                 </li>
 
 
-                <!-- Page Numbers -->
+               
                 <?php for ($page = 1; $page <= $totalPages; $page++): ?>
 
                     <li class="page-item <?= ($page == $currentPage) ? 'active' : '' ?>">
@@ -135,7 +135,7 @@ require_once __DIR__ . '/includes/header.php';
                 <?php endfor; ?>
 
 
-                <!-- Next -->
+               
                 <li class="page-item <?= ($currentPage >= $totalPages) ? 'disabled' : '' ?>">
 
                     <a
@@ -151,8 +151,31 @@ require_once __DIR__ . '/includes/header.php';
         </nav>
 
 
-</div>
+</div> -->
 
+<div class="social-overlay-wrapper">
+
+    <div class="border rounded-2 overflow-auto thin-scrollbar p-3"
+        style="height: 500px;">
+
+        <!-- ALL YOUR EXISTING LINKEDIN CODE -->
+
+    </div>
+
+    <!-- Coming Soon Overlay -->
+    <div class="social-coming-soon">
+        <div class="social-coming-soon-content">
+
+            <i class="bi bi-clock"></i>
+
+            <h3>Coming Soon</h3>
+
+            <p>News & Media will be available soon.</p>
+
+        </div>
+    </div>
+
+</div>
 
 <?php
 

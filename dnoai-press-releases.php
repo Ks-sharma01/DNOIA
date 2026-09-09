@@ -17,14 +17,14 @@ require_once __DIR__ . '/includes/header.php';
     <h1
         class="position-absolute top-50 start-50 translate-middle
                text-warning fw-bold text-center mb-0">
-        DNOIA Press Releases
+        DNOAI Press Releases
     </h1>
 
 </div>
 
-<?php require "data/news-data.php"; ?>
+<!-- <?php require "data/news-data.php"; ?> -->
 
-<section class="py-4 bg-light">
+<!-- <section class="py-4 bg-light">
 
     <div class="container">
         <div class="table-responsive">
@@ -82,9 +82,31 @@ require_once __DIR__ . '/includes/header.php';
 
     </div>
 
-</section>
+</section> -->
 
+<div class="social-overlay-wrapper">
 
+    <div class="border rounded-2 overflow-auto thin-scrollbar p-3"
+        style="height: 500px;">
+
+        <!-- ALL YOUR EXISTING LINKEDIN CODE -->
+
+    </div>
+
+    <!-- Coming Soon Overlay -->
+    <div class="social-coming-soon">
+        <div class="social-coming-soon-content">
+
+            <i class="bi bi-clock"></i>
+
+            <h3>Coming Soon</h3>
+
+            <p>Press Releases will be available soon.</p>
+
+        </div>
+    </div>
+
+</div>
 
 
 <?php

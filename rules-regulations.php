@@ -24,7 +24,7 @@ require_once __DIR__ . '/includes/header.php';
 </div>
 
 
-<?php require "data/home-data.php"; ?>
+<!-- <?php require "data/home-data.php"; ?>
 
 <section class="py-4 bg-light">
 
@@ -103,13 +103,13 @@ require_once __DIR__ . '/includes/header.php';
 
             </table>
 
-            <!-- Pagination -->
+           
 
             <nav class="mt-4" aria-label= "Industry Updates Pagination">
 
             <ul class="pagination justify-content-center">
 
-                <!-- Previous Page Link -->
+                
                 <li class="page-item <?= ($currentPage <= 1) ? 'disabled' : "" ?>">
                     <a class="page-link" href="?page=<?= $currentPage - 1 ?>">
                         Previous
@@ -117,7 +117,7 @@ require_once __DIR__ . '/includes/header.php';
                 </li>
 
 
-                <!-- Page Numbers -->
+                
                 <?php for($page = 1; $page <= $totalPages; $page++): ?>
                     <li class="page-item <?= ($page == $currentPage) ? 'active' : ''?>">
                         <a class="page-link" href="?page=<?= $page ?>">
@@ -128,7 +128,7 @@ require_once __DIR__ . '/includes/header.php';
                 <?php endfor; ?>
 
 
-                <!-- Next -->
+               
                   <li class="page-item <?= ($currentPage >= $totalPages) ? 'disabled' : '' ?>">
 
                     <a
@@ -145,8 +145,32 @@ require_once __DIR__ . '/includes/header.php';
 
     </div>
 
-</section>
+</section> -->
 
+
+<div class="social-overlay-wrapper">
+
+    <div class="border rounded-2 overflow-auto thin-scrollbar p-3"
+        style="height: 500px;">
+
+        <!-- ALL YOUR EXISTING CODE -->
+
+    </div>
+
+    <!-- Coming Soon Overlay -->
+    <div class="social-coming-soon">
+        <div class="social-coming-soon-content">
+
+            <i class="bi bi-clock"></i>
+
+            <h3>Coming Soon</h3>
+
+            <p>Rules & Regulations will be available soon.</p>
+
+        </div>
+    </div>
+
+</div>
 
 <?php
 

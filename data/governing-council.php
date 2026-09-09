@@ -3,37 +3,18 @@
 $governingCouncil = [
 
     [
-        'name' => 'Mr. Ravi Gupta',
-        'position' => 'CEO & Founder, DDC CATV Network Pvt. Ltd'
-    ],
-
-    [
         'name' => 'Mr. Sanjiv Narain',
-        'position' => 'Founder, Axom ISPL'
+        'position' => 'President, DNOAI | Founder, Axom ISPL'
     ],
     [
-        'name' => 'Mr. Yogesh Sharma',
-        'position' => 'CEO, Siti Networks Limited'
+        'name' => 'Mr. Ravi Gupta',
+        'position' => 'Vice-President, DNOAI | CEO & Founder, DDC CATV Network Pvt. Ltd'
     ],
     [
-        'name' => 'Ms. Bethany Brooks',
-        'position' => 'Co-Founder, Axom ISPL'
+        'name' => 'Mr. Garish Gupta',
+        'position' => 'Legal Advisory'
     ],
-    [
-        'name' => 'Mr. Nirlep Kumar',
-        'position' => 'COO, DDC CATV Network Pvt. Ltd'
-    ],
-    [
-        'name' => 'Mr. Charles Bernardi',
-        'position' => 'Business Manager, Axom ISPL'
-    ],
-    [
-        'name' => 'Ms. Rekha Gupta',
-        'position' => 'CFO, DDC CATV Network Pvt. Ltd'
-    ],
-
-
-
+  
 ];
 
 

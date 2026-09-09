@@ -1,27 +1,11 @@
 <?php
 
 $presidents = [
-
     [
-        'from' => 'November 2013',
+        'from' => '2026',
         'to' => 'Present',
-        'president' => 'Mr. Ravi Gupta, CEO & Founder, DDC CATV Network Pvt. Ltd'
+        'president' => 'Mr. Sanjiv Narain, Founder, Axom Communications & Cable Private Limited'
     ],
-
-    [
-        'from' => 'August, 2022',
-        'to' => 'Present',
-        'president' => 'Mr. Sanjiv Narain, Founder, Axom ISPL'
-    ],
-
-    [
-        'from' => 'January, 2022',
-        'to' => 'Present',
-        'president' => 'Mr. Yogesh Sharma, CEO, Siti Networks Limited'
-    ],
-
- 
-
 ];
 
 ?>

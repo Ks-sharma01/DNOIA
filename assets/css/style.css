@@ -39,13 +39,6 @@ body {
 
 }
 
-.logo {
-
-    width: 180px;
-
-    height: auto;
-
-}
 
 .navbar-nav .nav-link {
     font-weight: 500;
@@ -445,23 +438,6 @@ body {
     display: block;
 }
 
-/* Mobile */
-/* @media (max-width: 576px) {
-    .banner-image {
-        width: 100%;
-        height: 220px;
-        object-fit: cover;
-        object-position: center;
-    }
-} */
-
- /* .banner-image {
-    width: 100%;
-    aspect-ratio: 3 / 1;
-    height: auto;
-    object-fit: cover;
-    display: block;
-} */
 
 @media (max-width: 991px) {
 
@@ -477,6 +453,21 @@ body {
         height: 220px;
         aspect-ratio: initial;
     }
+    .member-box{
+        height: 50px;
+    }
+    .img-fluid{
+        width: 100px;
+    }
+   .director-card{
+     width: 250px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+   }
 
 } 
 
@@ -808,3 +799,297 @@ body {
 .social-overlay-wrapper {
     position: relative;
 }
+
+
+/* membership registration form */
+
+.membership-wrapper {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.form-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 5px 25px rgba(0,0,0,.08);
+}
+
+.form-step {
+    display: none;
+}
+
+.form-step.active {
+    display: block;
+}
+
+.progress-wrapper {
+    position: relative;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -17px;
+}
+
+.step {
+    text-align: center;
+    width: 90px;
+}
+
+.step span {
+    width: 34px;
+    height: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #ddd;
+    color: #555;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.step.active span {
+    background: #07539a;
+    color: white;
+}
+
+.step.completed span {
+    background: #198754;
+    color: white;
+}
+
+.step small {
+    display: block;
+    margin-top: 8px;
+    font-size: 11px;
+}
+
+.form-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.membership-option {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 18px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.membership-option:hover {
+    border-color: #07539a;
+    background: #f7fbff;
+}
+
+.membership-option small {
+    display: block;
+    color: #777;
+    margin-top: 3px;
+}
+
+.document-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.declaration-box {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 25px;
+    line-height: 1.7;
+}
+
+@media(max-width:768px) {
+
+    .steps {
+        overflow-x: auto;
+        justify-content: flex-start;
+        gap: 25px;
+        padding-bottom: 10px;
+    }
+
+    .step {
+        min-width: 80px;
+    }
+
+    .step small {
+        font-size: 9px;
+    }
+
+    .form-card {
+        padding: 20px;
+    }
+
+    .document-row {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+.dnai-mission {
+    background: #07539a;
+}
+
+.dnai-slogan {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: .4px;
+}
+
+.dnai-slogan strong {
+    color: #f58220;
+    font-size: 24px;
+    margin-right: 12px;
+}
+
+.dnai-slogan b {
+    color: #f58220;
+    margin: 0 10px;
+}
+
+.dnai-slogan span {
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .dnai-slogan {
+        line-height: 2;
+        font-size: 14px;
+    }
+
+    .dnai-slogan strong {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .dnai-slogan b {
+        margin: 0 5px;
+    }
+}
+
+
+    .email-wrapper {
+        width: 100% !important;
+        max-width: 900px !important;
+    }
+
+    .email-header {
+        padding: 25px !important;
+    }
+
+    .email-content {
+        padding: 25px !important;
+    }
+
+    .email-table {
+        width: 100% !important;
+        border-collapse: collapse;
+    }
+
+    .email-table td {
+        padding: 8px;
+        border: 1px solid #ddd;
+        vertical-align: top;
+        word-break: break-word;
+        overflow-wrap: anywhere;
+    }
+
+    .email-label {
+        width: 35%;
+        font-weight: bold;
+    }
+
+    .email-value {
+        width: 65%;
+    }
+
+    .section-title {
+        color: #173E76;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    @media only screen and (max-width: 600px) {
+
+        body {
+            background: #ffffff !important;
+        }
+
+        .email-wrapper {
+            width: 100% !important;
+            max-width: 100% !important;
+            border: 0 !important;
+            border-radius: 0 !important;
+        }
+
+        .email-header {
+            padding: 18px 15px !important;
+        }
+
+        .email-header h2 {
+            font-size: 20px !important;
+            line-height: 1.3 !important;
+        }
+
+        .email-header p {
+            font-size: 13px !important;
+        }
+
+        .email-content {
+            padding: 15px !important;
+        }
+
+        .section-title {
+            font-size: 17px !important;
+            margin-top: 25px !important;
+        }
+
+        .email-table,
+        .email-table tbody,
+        .email-table tr {
+            width: 100% !important;
+            display: block !important;
+        }
+
+        .email-table tr {
+            margin-bottom: 10px;
+        }
+
+        .email-table td {
+            display: block !important;
+            width: 100% !important;
+            padding: 9px 10px !important;
+            font-size: 14px !important;
+            line-height: 1.5 !important;
+        }
+
+        .email-label {
+            background: #f3f6fa !important;
+            font-weight: bold !important;
+            border-bottom: 0 !important;
+        }
+
+        .email-value {
+            background: #ffffff !important;
+        }
+
+        .submitted-box {
+            margin-top: 20px !important;
+            padding: 12px !important;
+            font-size: 13px !important;
+        }
+    }
