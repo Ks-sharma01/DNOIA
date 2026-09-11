@@ -24,7 +24,7 @@ $members = [
         "url" => ""
     ],
     [
-        "name" => "Siti Vision Digital Network",
+        "name" => "Siti Vision Digital Media",
         "logo" => "assets/images/siti_cable_logo.png",
         "url" => ""
     ],
