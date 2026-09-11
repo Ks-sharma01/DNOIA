@@ -22,59 +22,63 @@ require_once __DIR__ . '/includes/header.php';
         <!-- Progress -->
         <div class="progress-wrapper mb-5">
 
-            <div class="progress" style="height: 6px;">
-                <div
-                    class="progress-bar"
-                    id="progressBar"
-                    style="width: 11%;">
+            <div class="progress-content">
+
+                <div class="steps">
+
+                    <div class="step active">
+                        <span>1</span>
+                        <small>Organization</small>
+                    </div>
+
+                    <div class="step">
+                        <span>2</span>
+                        <small>Representative</small>
+                    </div>
+
+                    <div class="step">
+                        <span>3</span>
+                        <small>Business</small>
+                    </div>
+
+                    <div class="step">
+                        <span>4</span>
+                        <small>Regulatory</small>
+                    </div>
+
+                    <div class="step">
+                        <span>5</span>
+                        <small>Category</small>
+                    </div>
+
+                    <div class="step">
+                        <span>6</span>
+                        <small>Documents</small>
+                    </div>
+
+                    <div class="step">
+                        <span>7</span>
+                        <small>Payment</small>
+                    </div>
+
+                    <div class="step">
+                        <span>8</span>
+                        <small>Declaration</small>
+                    </div>
+
+                    <div class="step">
+                        <span>9</span>
+                        <small>Recommendation</small>
+                    </div>
+
                 </div>
-            </div>
 
-            <div class="steps">
-
-                <div class="step active">
-                    <span>1</span>
-                    <small>Organization</small>
-                </div>
-
-                <div class="step">
-                    <span>2</span>
-                    <small>Representative</small>
-                </div>
-
-                <div class="step">
-                    <span>3</span>
-                    <small>Business</small>
-                </div>
-
-                <div class="step">
-                    <span>4</span>
-                    <small>Regulatory</small>
-                </div>
-
-                <div class="step">
-                    <span>5</span>
-                    <small>Category</small>
-                </div>
-
-                <div class="step">
-                    <span>6</span>
-                    <small>Documents</small>
-                </div>
-
-                <div class="step">
-                    <span>7</span>
-                    <small>Payment</small>
-                </div>
-
-                <div class="step">
-                    <span>8</span>
-                    <small>Declaration</small>
-                </div>
-
-                <div class="step">
-                    <span>9</span>
-                    <small>Recommendation</small>
+                <div class="progress" style="height: 6px;">
+                    <div
+                        class="progress-bar"
+                        id="progressBar"
+                        style="width: 11%;">
+                    </div>
                 </div>
 
             </div>

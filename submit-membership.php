@@ -294,7 +294,6 @@ function uploadDocument($fieldName, $uploadDir)
     ) {
 
         return $newName;
-
     }
 
     return null;
@@ -336,7 +335,6 @@ foreach ($documentFields as $field) {
             $field,
             $uploadDir
         );
-
 }
 
 
@@ -395,7 +393,7 @@ $data = [
         "father_name" => $fatherName,
         "designation" => $designation,
         "correspondence_address" =>
-            $correspondenceAddress,
+        $correspondenceAddress,
         "mobile" => $representativeMobile,
         "email" => $representativeEmail
 
@@ -405,13 +403,13 @@ $data = [
 
         "activities" => $businessActivities,
         "other_activity" =>
-            $otherBusinessActivity,
+        $otherBusinessActivity,
         "operating_states" =>
-            $operatingStates,
+        $operatingStates,
         "operating_areas" =>
-            $operatingAreas,
+        $operatingAreas,
         "active_subscribers" =>
-            $activeSubscribers
+        $activeSubscribers
 
     ],
 
@@ -419,75 +417,75 @@ $data = [
 
         "license_no" => $licenseNo,
         "issue_date" =>
-            $licenseIssueDate,
+        $licenseIssueDate,
         "expiry_date" =>
-            $licenseExpiryDate,
+        $licenseExpiryDate,
         "gst_no" => $gstNo,
         "pan_no" => $panNo,
         "aadhaar_no" => $aadhaarNo,
         "legal_proceeding" =>
-            $legalProceeding,
+        $legalProceeding,
         "details" =>
-            $legalProceedingDetails
+        $legalProceedingDetails
 
     ],
 
     "membership" => [
 
         "category" =>
-            $membershipCategory,
+        $membershipCategory,
         "other_category" =>
-            $otherMembershipCategory
+        $otherMembershipCategory
 
     ],
 
     "payment" => [
 
         "membership_fee" =>
-            $membershipFee,
+        $membershipFee,
         "gst" => $gstAmount,
         "total_amount" =>
-            $totalAmount,
+        $totalAmount,
         "payment_date" =>
-            $paymentDate,
+        $paymentDate,
         "payment_mode" =>
-            $paymentMode,
+        $paymentMode,
         "transaction_no" =>
-            $transactionNo
+        $transactionNo
 
     ],
 
     "authorized_signatory" => [
 
         "name" =>
-            $signatoryName,
+        $signatoryName,
         "designation" =>
-            $signatoryDesignation,
+        $signatoryDesignation,
         "date" =>
-            $signatoryDate,
+        $signatoryDate,
         "place" =>
-            $signatoryPlace
+        $signatoryPlace
 
     ],
 
     "recommendation" => [
 
         "mso" =>
-            $recommendingMso,
+        $recommendingMso,
         "membership_no" =>
-            $recommendingMembershipNo,
+        $recommendingMembershipNo,
         "person" =>
-            $recommendingPerson,
+        $recommendingPerson,
         "date" =>
-            $recommendationDate
+        $recommendationDate
 
     ],
 
     "documents" =>
-        $uploadedFiles,
+    $uploadedFiles,
 
     "submitted_at" =>
-        date("Y-m-d H:i:s")
+    date("Y-m-d H:i:s")
 
 ];
 
@@ -512,11 +510,11 @@ try {
     $mail->Password = 'qijbfnbianemkodb';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
-  
+
 
     $mail->setFrom('ksgamingarena01@gmail.com', 'Digital Network Operator Association of India (DNOAI)');
     $mail->addAddress('ks009232@gmail.com');
-      // Reply-to representative email
+    // Reply-to representative email
     if (!empty($representativeEmail)) {
         $mail->addReplyTo(
             $representativeEmail,
@@ -526,18 +524,121 @@ try {
 
     $mail->isHTML(true);
     $mail->Subject = 'New DNOAI Membership Application - ' . $applicationNo;
-     $mail->Body = "
+    $mail->Body = "
+<style>
+    * {
+        box-sizing: border-box;
+    }
 
-    <div class='email-wrapper' style='font-family:Arial,sans-serif;
-            width:100%;
-            max-width:900px;
-            margin:0 auto;
-            border:1px solid #ddd;
-            border-radius:10px;
-            overflow:hidden;
-            box-sizing:border-box;'>
+    body {
+        margin: 0;
+        padding: 0;
+        background: #f5f5f5;
+        font-family: Arial, sans-serif;
+    }
 
-        <div style='background:#173E76;
+    .email-wrapper {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        overflow: hidden;
+        background: #ffffff;
+    }
+
+    .email-container {
+        padding: 25px;
+    }
+
+    .email-table {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+    }
+
+    .email-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        vertical-align: top;
+        word-break: break-word;
+        overflow-wrap: anywhere;
+    }
+
+    .email-table td:first-child {
+        width: 35%;
+        font-weight: bold;
+    }
+
+    h3 {
+        color: #173E76;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    @media only screen and (max-width: 600px) {
+
+        .email-wrapper {
+            width: 100% !important;
+            max-width: 100% !important;
+            border-radius: 0 !important;
+            border-left: 0 !important;
+            border-right: 0 !important;
+        }
+
+        .email-container {
+            padding: 15px !important;
+        }
+
+        .email-header {
+            padding: 18px !important;
+        }
+
+        .email-header h2 {
+            font-size: 20px !important;
+            line-height: 1.3 !important;
+        }
+
+        .email-header p {
+            font-size: 13px !important;
+        }
+
+        h3 {
+            font-size: 17px !important;
+            line-height: 1.4 !important;
+            margin-top: 25px !important;
+        }
+
+        .email-table {
+            width: 100% !important;
+            table-layout: fixed !important;
+        }
+
+        .email-table td {
+            padding: 7px !important;
+            font-size: 13px !important;
+            word-break: break-word !important;
+            overflow-wrap: anywhere !important;
+        }
+
+        .email-table td:first-child {
+            width: 40% !important;
+        }
+
+        .email-table td:last-child {
+            width: 60% !important;
+        }
+
+        .submitted-box {
+            font-size: 13px !important;
+            padding: 12px !important;
+        }
+    }
+</style>
+
+    <div class='email-wrapper'>
+
+        <div class='email-header' style='background:#173E76;
                     color:#fff;
                     padding:25px;'>
 
@@ -553,7 +654,7 @@ try {
         </div>
 
 
-        <div style='padding:25px;'>
+        <div class='email-container'>
 
 
             <!-- BASIC INFORMATION -->
@@ -952,72 +1053,7 @@ try {
                 Part G - Membership Fee
             </h3>
 
-            <table class='email-table' width='100%'
-                   cellpadding='8'
-                   cellspacing='0'
-                   style='border-collapse:collapse;'>
-
-                <tr>
-                    <td style='font-weight:bold;border:1px solid #ddd;'>
-                        Membership Fee
-                    </td>
-
-                    <td style='border:1px solid #ddd;'>
-                        {$membershipFee}
-                    </td>
-                </tr>
-
-                <tr>
-                    <td style='font-weight:bold;border:1px solid #ddd;'>
-                        GST Amount
-                    </td>
-
-                    <td style='border:1px solid #ddd;'>
-                        {$gstAmount}
-                    </td>
-                </tr>
-
-                <tr>
-                    <td style='font-weight:bold;border:1px solid #ddd;'>
-                        Total Amount
-                    </td>
-
-                    <td style='border:1px solid #ddd;'>
-                        {$totalAmount}
-                    </td>
-                </tr>
-
-                <tr>
-                    <td style='font-weight:bold;border:1px solid #ddd;'>
-                        Payment Date
-                    </td>
-
-                    <td style='border:1px solid #ddd;'>
-                        {$paymentDate}
-                    </td>
-                </tr>
-
-                <tr>
-                    <td style='font-weight:bold;border:1px solid #ddd;'>
-                        Payment Mode
-                    </td>
-
-                    <td style='border:1px solid #ddd;'>
-                        {$paymentMode}
-                    </td>
-                </tr>
-
-                <tr>
-                    <td style='font-weight:bold;border:1px solid #ddd;'>
-                        Transaction No.
-                    </td>
-
-                    <td style='border:1px solid #ddd;'>
-                        {$transactionNo}
-                    </td>
-                </tr>
-
-            </table>
+           
 
 
             <!-- SIGNATORY -->
@@ -1128,7 +1164,7 @@ try {
             </table>
 
 
-            <div style='margin-top:30px;
+            <div class='submitted-box' style='margin-top:30px;
                         padding:15px;
                         background:#f5f5f5;
                         border-radius:6px;'>
@@ -1143,7 +1179,7 @@ try {
     </div>
     ";
 
-       /*
+    /*
     |--------------------------------------------------------------------------
     | Attach Uploaded Documents
     |--------------------------------------------------------------------------
@@ -1161,7 +1197,6 @@ try {
                     $filePath,
                     $fileName
                 );
-
             }
         }
     }
@@ -1173,20 +1208,18 @@ try {
         'success' => true,
         'message' => 'Thank you! Your form has been submitted successfully.'
     ]);
-
 } catch (Exception $e) {
     echo json_encode([
         'success' => false,
         $mailSent = false,
-        'message' => $mail -> ErrorInfo
+        'message' => $mail->ErrorInfo
     ]);
-      
 }
 
-if($mailSent){
-       header(
+if ($mailSent) {
+    header(
         "Location: membership-success.php?application=" .
-        urlencode($applicationNo)
+            urlencode($applicationNo)
     );
 
     exit;

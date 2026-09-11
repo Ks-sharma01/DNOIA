@@ -411,6 +411,22 @@ function showStep(step) {
 
     progressBar.style.width = progress + "%";
 
+    const progressWrapper = document.querySelector(".progress-wrapper");
+    const activeProgressStep = progressSteps[step];
+
+    if (progressWrapper && activeProgressStep && progressWrapper.scrollWidth > progressWrapper.clientWidth) {
+        const wrapperRect = progressWrapper.getBoundingClientRect();
+        const stepRect = activeProgressStep.getBoundingClientRect();
+        const stepCenter = stepRect.left - wrapperRect.left +
+            progressWrapper.scrollLeft + stepRect.width / 2;
+        const targetScrollLeft = stepCenter - progressWrapper.clientWidth / 2;
+
+        progressWrapper.scrollTo({
+            left: Math.max(0, targetScrollLeft),
+            behavior: "smooth"
+        });
+    }
+
 
     prevBtn.style.display = step === 0 ? "none" : "inline-block";
 

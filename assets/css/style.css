@@ -888,10 +888,15 @@ body {
     position: relative;
 }
 
+.progress-content {
+    position: relative;
+}
+
 .steps {
     display: flex;
     justify-content: space-between;
-    margin-top: -17px;
+    position: relative;
+    z-index: 1;
 }
 
 .step {
@@ -926,6 +931,14 @@ body {
     display: block;
     margin-top: 8px;
     font-size: 11px;
+}
+
+.progress-content > .progress {
+    position: absolute;
+    top: 14px;
+    left: 45px;
+    right: 45px;
+    z-index: 0;
 }
 
 .form-navigation {
@@ -974,8 +987,20 @@ body {
 
 @media(max-width:768px) {
 
-    .steps {
+    .progress-wrapper {
         overflow-x: auto;
+        scrollbar-width: none;
+    }
+
+    .progress-content {
+        min-width: 1010px;
+    }
+
+    .progress-wrapper::-webkit-scrollbar {
+        display: none;
+    }
+
+    .steps {
         justify-content: flex-start;
         gap: 25px;
         padding-bottom: 10px;
