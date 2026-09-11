@@ -145,7 +145,7 @@ require "data/banner-data.php";
                         </div>
 
                         <div class="member-name">
-                            <p class="mb-0">
+                            <p class="mb-0 fw-bold">
                                 <?= $member['name'] ?>
                             </p>
                         </div>
