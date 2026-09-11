@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
 
     <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+        content="width=device-width, initial-scale=1.0">
 
     <title>
         <?= $pageTitle ?? 'DNOAI' ?>
@@ -26,128 +26,131 @@
     <link
         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
         rel="stylesheet">
-  
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Custom CSS -->
-        <link
-            rel="stylesheet"
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom CSS -->
+    <link
+        rel="stylesheet"
         href="<?= BASE_URL ?>assets/css/style.css">
 
 </head>
 
 <body>
 
-<header>
-
-    
-    <!-- Navbar -->
-<nav class="navbar navbar-expand-lg custom-bg shadow-sm">
-
-    <div class="container">
-
-        <a class="navbar-brand"
-        href="index.php">
-        
-        <img
-    src="<?= BASE_URL ?>assets/images/logo3.png"
-    alt="DNOAI Logo"
-    class="rounded-5"
-    width="70" height="70" style="object-fit: cover;">
-        
-    </a>
-    
-    
-    <!-- Mobile Button -->
-    
-    <button
-    class="navbar-toggler"
-    type="button"
-    data-bs-toggle="collapse"
-    data-bs-target="#mainNavbar">
-    
-            <span class="navbar-toggler-icon bg-white"></span>
-            
-        </button>
+    <header>
 
 
-        <!-- Menu -->
-        
-        <div
-            class="collapse navbar-collapse"
-            id="mainNavbar">
-            
-            <ul class="navbar-nav m-auto">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg custom-bg shadow-sm">
 
-                <li class="nav-item">
-                    
-                    <a
-                        class="nav-link text-white"
-                        href="index.php">
-                        
-                        Home
-                        
-                    </a>
-                    
-                </li>
-                
-                
-                <!-- About -->
-                
-              <li class="nav-item dropdown">
+            <div class="container">
+
+                <a class="navbar-brand"
+                    href="index.php">
+
+                    <img
+                        src="<?= BASE_URL ?>assets/images/logo3.png"
+                        alt="DNOAI Logo"
+                        class="rounded-5"
+                        width="70" height="70" style="object-fit: cover;">
+
+                </a>
+
+
+                <!-- Mobile Button -->
 
                 <button
-                    class="nav-link dropdown-toggle text-white border-0 bg-transparent w-100 text-start"
+                    class="navbar-toggler"
                     type="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false">
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
 
-                    About
+                    <i class="bi bi-list-ul text-white fw-bold"></i>
 
                 </button>
 
-                <ul class="dropdown-menu">
 
-                    <li>
-                        <a
-                            class="dropdown-item text-muted"
-                            href="<?= BASE_URL ?>about.php#contentId">
-                            DNOAI
-                        </a>
-                    </li>
+                <!-- Menu -->
 
-                    <li>
-                        <a
-                            class="dropdown-item text-muted"
-                            href="<?= BASE_URL ?>about.php#coreValuesId">
-                            Core Values of DNOAI
-                        </a>
-                    </li>
+                <div
+                    class="collapse navbar-collapse"
+                    id="mainNavbar">
 
-                    <li>
-                        <a
-                            class="dropdown-item text-muted"
-                            href="<?= BASE_URL ?>about.php#visionId">
-                            Vision & Mission
-                        </a>
-                    </li>
+                    <ul class="navbar-nav m-auto">
 
-                    <li>
-                        <a
-                            class="dropdown-item"
-                            href="<?= BASE_URL ?>president-message.php">
-                            President's Message
-                        </a>
-                    </li>
+                        <li class="nav-item">
 
-                    <li>
-                        <a
-                            class="dropdown-item"
-                            href="<?= BASE_URL ?>leadership.php">
-                            Leadership
-                        </a>
-                    </li>
+                            <a
+                                class="nav-link text-white"
+                                href="index.php">
 
-                    <!-- <li>
+                                Home
+
+                            </a>
+
+                        </li>
+
+
+                        <!-- About -->
+
+                        <li class="nav-item dropdown">
+
+                            <button
+                                class="nav-link dropdown-toggle text-white border-0 bg-transparent w-100 text-start"
+                                type="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false">
+
+                                About
+
+                            </button>
+
+                            <ul class="dropdown-menu">
+
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="<?= BASE_URL ?>about.php#contentId">
+                                        DNOAI
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="<?= BASE_URL ?>about.php#coreValuesId">
+                                        Core Values of DNOAI
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="<?= BASE_URL ?>about.php#visionId">
+                                        Vision & Mission
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="<?= BASE_URL ?>president-message.php">
+                                        President's Message
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="<?= BASE_URL ?>leadership.php">
+                                        Leadership
+                                    </a>
+                                </li>
+
+                                <!-- <li>
                         <a
                             class="dropdown-item"
                             href="<?= BASE_URL ?>secretariat.php">
@@ -155,184 +158,181 @@
                         </a>
                     </li> -->
 
-                </ul>
+                            </ul>
 
-            </li>
-                
-                <!-- Membership -->
-                
-               <li class="nav-item dropdown">
-                    
-                        <button
-                            class="nav-link dropdown-toggle text-white border-0 bg-transparent w-100 text-start"
-                            type="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false">
-
-                            Membership
-
-                        </button>
-                       
-                
-
-                    <ul class="dropdown-menu">
-
-                        <li>
-                            <a
-                            class="dropdown-item"
-                                href="<?= BASE_URL ?>members.php#criteriaId">
-                                
-                                Membership Criteria
-                                
-                            </a>
                         </li>
 
-                        <li>
+                        <!-- Membership -->
+
+                        <li class="nav-item dropdown">
+
+                            <button
+                                class="nav-link dropdown-toggle text-white border-0 bg-transparent w-100 text-start"
+                                type="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false">
+
+                                Membership
+
+                            </button>
+
+
+
+                            <ul class="dropdown-menu">
+
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="<?= BASE_URL ?>members.php#criteriaId">
+
+                                        Membership Criteria
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="<?= BASE_URL ?>members.php#advantagesId">
+
+                                        Membership Advantages
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="<?= BASE_URL ?>members.php#membersId">
+
+                                        Members
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="<?= BASE_URL ?>members.php#becomememberId">
+
+                                        Become a Member
+
+                                    </a>
+                                </li>
+
+
+                            </ul>
+
+                        </li>
+
+
+                        <!-- Resources -->
+
+                        <li class="nav-item dropdown">
+
+                            <button
+                                class="nav-link dropdown-toggle text-white border-0 bg-transparent w-100 text-start"
+                                type="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false">
+
+                                Resources
+
+                            </button>
+
+                            <ul class="dropdown-menu">
+
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="<?= BASE_URL ?>news-media.php">
+
+                                        News & Media
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="<?= BASE_URL ?>dnoai-press-releases.php">
+
+
+                                        DNOAI Press Releases
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="<?= BASE_URL ?>industry-updates.php">
+
+                                        Industry Updates
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="<?= BASE_URL ?>consultation-papers.php">
+
+                                        Consultation Papers & Recommendations
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="<?= BASE_URL ?>rules-regulations.php">
+
+                                        Rules & Regulations
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="<?= BASE_URL ?>relevant-websites.php">
+
+                                        Relevant Websites
+
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+
+                        <!-- Contact -->
+
+                        <li class="nav-item">
+
                             <a
-                                class="dropdown-item"
-                                href="<?= BASE_URL ?>members.php#advantagesId">
-                                
-                                Membership Advantages
+                                class="nav-link text-white"
+                                href="<?= BASE_URL ?>contact.php">
+
+                                Contact
 
                             </a>
-                        </li>
-                        <li>
-                            <a
-                                class="dropdown-item"
-                                href="<?= BASE_URL ?>members.php#membersId">
-                                
-                                Members
 
-                            </a>
                         </li>
-                        <li>
-                            <a
-                                class="dropdown-item"
-                                href="<?= BASE_URL ?>members.php#becomememberId">
-                                
-                                Become a Member
 
-                            </a>
-                        </li>
-                      
-                        
                     </ul>
 
-                </li>
-                
-                
-                <!-- Resources -->
-                
-                <li class="nav-item dropdown">
-                    
-                        <button
-                            class="nav-link dropdown-toggle text-white border-0 bg-transparent w-100 text-start"
-                            type="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                </div>
+                <div class="d-none d-lg-flex gap-4">
+                    <a>
+                        <i class="bi bi-twitter-x text-white"></i>
+                    </a>
+                    <a>
+                        <i class="bi bi-linkedin text-white"></i>
+                    </a>
 
-                            Resources
+                </div>
+            </div>
 
-                        </button>
-                                           
-                    <ul class="dropdown-menu">
-                        
-                        <li>
-                            <a
-                                class="dropdown-item"
-                                href="<?= BASE_URL ?>news-media.php">
-                                
-                                News & Media
-                                
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a
-                            class="dropdown-item"
-                            href="<?= BASE_URL ?>dnoai-press-releases.php">
-
-                               
-                             DNOAI Press Releases
-
-                            </a>
-                        </li>
-
-                        <li>
-                            <a
-                            class="dropdown-item"
-                                href="<?= BASE_URL ?>industry-updates.php">
-                                
-                                Industry Updates
-                                
-                            </a>
-                        </li>
-
-                        <li>
-                            <a
-                                class="dropdown-item"
-                                href="<?= BASE_URL ?>consultation-papers.php">
-
-                                Consultation Papers & Recommendations
-
-                            </a>
-                        </li>
-
-                        <li>
-                            <a
-                                class="dropdown-item"
-                                href="<?= BASE_URL ?>rules-regulations.php">
-
-                                Rules & Regulations
-
-                            </a>
-                        </li>
-
-                        <li>
-                            <a
-                                class="dropdown-item"
-                                href="<?= BASE_URL ?>relevant-websites.php">
-
-                                Relevant Websites
-
-                            </a>
-                        </li>
-                        
-                    </ul>
-                    
-                </li>
-                
-                
-                <!-- Contact -->
-                
-                <li class="nav-item">
-                    
-                    <a
-                    class="nav-link text-white"
-                    href="<?= BASE_URL ?>contact.php">
-                    
-                    Contact
-                    
-                </a>
-
-                </li>
-                
-            </ul>
-
-        </div>
-        <div class="d-none d-lg-flex gap-4">
-            <!-- <a href="#">
-                <i class="bi bi-twitter-x text-white"></i>
-            </a>
-            <a href="#">
-                <i class="bi bi-linkedin bg-white"></i>
-            </a> -->
-            <!-- <span class="text-white">
-
-                Coming Soon
-            </span> -->
-        </div>
-    </div>
-
-</nav>
-</header>
+        </nav>
+    </header>

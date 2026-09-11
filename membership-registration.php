@@ -1470,7 +1470,7 @@ require_once __DIR__ . '/includes/header.php';
                     class="btn btn-outline-secondary"
                     onclick="changeStep(-1)"
                     style="display:none;">
-                    ← Previous
+                    <i class="bi bi-arrow-left"></i> Previous
                 </button>
 
                 <button
@@ -1478,7 +1478,7 @@ require_once __DIR__ . '/includes/header.php';
                     id="nextBtn"
                     class="btn btn-primary"
                     onclick="changeStep(1)">
-                    Next →
+                    Next <i class="bi bi-arrow-right"></i>
                 </button>
 
                 <button

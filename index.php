@@ -108,7 +108,7 @@ require "data/banner-data.php";
 
     <div class="container">
 
-        <h1 class="text-center fw-bold text-warning">Our Members</h1>
+        <h1 class="text-center fw-bold" style="color: #f7931e;">Our Members</h1>
 
     </div>
 
@@ -289,7 +289,7 @@ require "data/banner-data.php";
                                             <div class="card border-0 shadow-sm rounded-3 overflow-hidden h-100">
 
                                                 <!-- Image -->
-                                                <div style="height: 200px;">
+                                                <div style="height: 100px;">
 
                                                     <img
                                                         src="<?= htmlspecialchars($news['image']); ?>"
@@ -304,8 +304,8 @@ require "data/banner-data.php";
 
                                                     <h5 class="card-title text-dark fw-medium"
                                                         style="
-                                                    line-height: 1.4;
-                                                    min-height: 80px;
+                                                    line-height: 1.3;
+                                                    min-height: auto;
                                                 ">
 
                                                         <?= htmlspecialchars($news['heading']); ?>
@@ -414,7 +414,7 @@ require "data/banner-data.php";
             <div class="text-center">
 
                 <a href="<?= BASE_URL ?>news-media.php"
-                    class="btn btn-dark fw-bold px-4 py-2 mt-4 rounded-1" style="background-color: #F2A03A; border: none">
+                    class="btn btn-dark fw-bold px-4 py-2 mt-4 rounded-1" style="background-color: #f7931e; border: none">
                     View All
                 </a>
             </div>
@@ -462,7 +462,7 @@ require "data/banner-data.php";
                                                 <?= $twitter_profile['name'] ?>
                                             </strong>
 
-                                            <a href="<?= $twitter_profile['profile_url'] ?>"
+                                            <a 
                                                 class="btn btn-primary btn-sm py-0 px-2">
 
                                                 <i class="bi bi-twitter-x"></i>
@@ -643,7 +643,7 @@ require "data/banner-data.php";
 
                                     </a>
 
-                                    <a href="<?= $linkedin_profile['url'] ?>"
+                                    <a 
                                         class="btn w-100 mt-3 text-white"
                                         style="background-color:#496481;">
 

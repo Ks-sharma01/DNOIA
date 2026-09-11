@@ -12,14 +12,14 @@ $news_info = [
         "image" => "assets/images/truTv_iptv.jpg",
         "heading" => "DNOAI Empowering Network Operators Through Collaboration",
         "date" => "06-Apr-26",
-        "description" => "Digital Network Operator Association of India said the consultation paper comprehensively captures the concerns raised…",
+        "description" => "Digital Network Operator Association of India said the consultation paper comprehensively captures the concerns…",
         "link" => ""
     ],
     [
         "image" => "assets/images/truTv_iptv.jpg",
         "heading" => "DNOAI Calls for Greater Collaboration Across the Digital Network Ecosystem",
         "date" => "19-Mar-26",
-        "description" => "The battle between traditional television distributors and digital platforms has found its way to the courts, with the All India…",
+        "description" => "The battle between traditional television distributors and digital platforms has found its way to the courts…",
         "link" => ""
     ],
     [

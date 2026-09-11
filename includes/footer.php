@@ -239,11 +239,11 @@
 
                     <div class="social-icons">
 
-                        <a href="https://x.com/" class="social-btn">
+                        <a class="social-btn">
                             <i class="bi bi-twitter-x x-size-footer"></i>
                         </a>
 
-                        <a href="https://www.linkedin.com/home" class="social-btn">
+                        <a class="social-btn">
                             <i class="bi bi-linkedin linkedin-size-footer"></i>
                         </a>
 

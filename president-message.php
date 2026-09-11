@@ -50,7 +50,7 @@ require_once __DIR__ . '/includes/header.php';
                     <h5
                         class="fw-semibold mb-3"
                         style="color: #f5a04b;">
-                         Founder, Axom ISPL | DNOAI
+                         President, DNOAI | Founder, Axom ISPL 
                     </h5>
 
                     <p
@@ -61,7 +61,7 @@ require_once __DIR__ . '/includes/header.php';
                     <p
                         class="mb-3 text-dark lh-base"
                         style="text-align: justify;">
-                        As a Promoter and Director of the Digital Network Operators Association of India (DNOAI), Mr. Narain contributes to the association's efforts to bring digital network operators together and strengthen representation of the industry.
+                        As a President of the Digital Network Operators Association of India (DNOAI), Mr. Narain contributes to the association's efforts to bring digital network operators together and strengthen representation of the industry.
                         With his experience in the digital network and telecommunications ecosystem, Mr. Narain brings valuable industry perspective to DNOAI, particularly in areas such as network development, digital connectivity, technological advancement, and the growth of the cable and broadband industry.</p>
 
                 </div>
