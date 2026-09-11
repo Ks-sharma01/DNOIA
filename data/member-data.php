@@ -3,19 +3,13 @@
 $members = [
 
     [
-        "name" => "Siti",
-        "logo" => "assets/images/siti_cable_logo.png",
-        "url" => "https://www.sitinetworks.com/"
-    ],
-
-    [
-        "name" => "Axom",
+        "name" => "Axom Communications & Cable Private Limited",
         "logo" => "assets/images/axom_logo.png",
         "url" => "https://axom.co.in/"
     ],
 
     [
-        "name" => "DDC",
+        "name" => "DDC CATV Network Pvt. Ltd",
         "logo" => "assets/images/DDC_logo3.png",
         "url" => "https://www.ddccatv.com/"
     ],
@@ -23,25 +17,29 @@ $members = [
         "name" => "Rajasthan Infotech Media Services Private Limited",
         "logo" => "assets/images/rajasthan_infotech.png",
         "url" => "https://rajasthaninfotech.in/"
-    ]
+    ],
+       [
+        "name" => "Siti Siri Digital Network",
+        "logo" => "assets/images/siti_cable_logo.png",
+        "url" => ""
+    ],
+    [
+        "name" => "Siti Vision Digital Network",
+        "logo" => "assets/images/siti_cable_logo.png",
+        "url" => ""
+    ],
 
 
 ];
 $members_details = [
 
-    [
-        "name" => "Siti Networks Limited",
-        "logo" => "assets/images/siti_cable_logo.png",
-        "address" => "Ecity Bioscope Rd, Film City, Sector 16A, Noida, Uttar Pradesh 201301",
-        "phone" => "0120 452 6700",
-        "url" => "https://www.sitinetworks.com/"
-    ],
+
 
     [
         "name" => "Axom Communications & Cable Private Limited",
         "logo" => "assets/images/axom_logo.png",
         "address" => "4th FLOOR, SURYA TOWER, DR. B BARUAH ROAD, ULUBARI, GUWAHATI-781007- India",
-        "phone" => "1800 889 3188",
+        // "phone" => "1800 889 3188",
         "url" => "https://axom.co.in/"
     ],
 
@@ -49,7 +47,7 @@ $members_details = [
         "name" => "DDC CATV Network Pvt. Ltd",
         "logo" => "assets/images/DDC_logo3.png",
         "address" => "Office Number 2, Ist Floor, Local Shopping center, Uday Park New Dehi - 110049",
-        "phone" => "180-011-0800",
+        // "phone" => "180-011-0800",
         "url" => "https://www.ddccatv.com/"
     ],
 
@@ -57,27 +55,27 @@ $members_details = [
         "name" => "Rajasthan Infotech Media Services Private Limited",
         "logo" => "assets/images/rajasthan_infotech.png",
         "address" => "B-104, Vaishali Nagar, Jaipur, Rajasthan, IN 302021",
-        "phone" => "1800 2740 222",
+        // "phone" => "1800 2740 222",
         "url" => "https://rajasthaninfotech.in/"
     ],
-    
+
     [
         "name" => "Siti Siri Digital Network",
         "logo" => "assets/images/siti_cable_logo.png",
         "address" => "5-72-32/2, 3rd Lane, Ashok Nagar Near Telephone Exchange Guntur - 522 006",
-        "phone" => "9052079555",
+        // "phone" => "9052079555",
         "url" => ""
     ],
-    
+
     [
         "name" => "Siti Vision Digital Media",
         "logo" => "assets/images/siti_cable_logo.png",
         "address" => "6-2-929, DB Enclave Rajbhavan Road, Kairatabad, Hyderabad",
-        "phone" => "9849009249",
+        // "phone" => "9849009249",
         "url" => ""
     ],
 
-  
+
 
 ];
 

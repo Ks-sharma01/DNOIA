@@ -119,47 +119,48 @@ require "data/banner-data.php";
 
 <section class="py-5" style="background-color: #173E76;">
 
-    <div class="container">
+    <div class="container ">
 
-        <div class="row g-4 justify-content-center">
+        <div class="row member-list g-4 justify-content-center">
 
             <?php
-
             require "data/member-data.php";
 
             foreach ($members as $member):
-
             ?>
 
-                <div class="col-lg-2 col-md-6">
+                <div class="col-4">
 
-                    <div class="member-box text-center">
+                    <div class="member-item">
 
-                        <a
-                            href="<?= $member['url'] ?>"
-                            target="_blank"
-                            rel="noopener noreferrer">
+                        <div class="member-box">
+                            <a href="<?= $member['url'] ?>"
+                                target="_blank"
+                                rel="noopener noreferrer">
 
-                            <img
-                                src="<?= $member['logo'] ?>"
-                                alt="<?= $member['name'] ?>"
-                                class="img-fluid">
+                                <img src="<?= $member['logo'] ?>"
+                                    alt="<?= $member['name'] ?>"
+                                    class="member-logo">
+                            </a>
+                        </div>
 
-                        </a>
-
-
+                        <div class="member-name">
+                            <p class="mb-0">
+                                <?= $member['name'] ?>
+                            </p>
+                        </div>
 
                     </div>
 
                 </div>
 
             <?php endforeach; ?>
+
         </div>
 
-
     </div>
 
-    </div>
+    <!-- </div> -->
 
 </section>
 
@@ -318,11 +319,11 @@ require "data/banner-data.php";
                                                     </div>
                                                     <p class="card-text text-secondary small mb-3"
                                                         style="
-                                            display: -webkit-box;
-                                            line-clamp: 4;
-                                            -webkit-box-orient: vertical;
-                                            overflow: hidden;
-                                        ">
+                                                        display: -webkit-box;
+                                                        -webkit-line-clamp: 5;
+                                                        -webkit-box-orient: vertical;
+                                                        overflow: hidden;
+                                                    ">
                                                         <?= htmlspecialchars($news['description']); ?>
                                                     </p>
 
@@ -413,8 +414,8 @@ require "data/banner-data.php";
             <div class="text-center">
 
                 <a href="<?= BASE_URL ?>news-media.php"
-                    class="disabled btn btn-dark fw-bold px-4 py-2 mt-4 rounded-1" style="background-color: #F2A03A; border: none">
-                    More Coming Soon
+                    class="btn btn-dark fw-bold px-4 py-2 mt-4 rounded-1" style="background-color: #F2A03A; border: none">
+                    View All
                 </a>
             </div>
         </section>
@@ -432,9 +433,9 @@ require "data/banner-data.php";
                     <!-- Twitter -->
                     <div class="col-lg-6 col-md-6 col-12">
 
-                        <h2 class="text-center mb-4 fw-bold"
-                            style="color: #f2a03a;">
-                            X
+                        <h2 class="text-center mb-4 fw-bold">
+                            <i class="bi bi-twitter-x x-size"></i>
+
                         </h2>
 
                         <div class="border rounded-2 overflow-auto thin-scrollbar p-2"
@@ -598,9 +599,8 @@ require "data/banner-data.php";
                     <!-- LinkedIn -->
                     <div class="col-lg-6 col-md-6 col-12">
 
-                        <h2 class="text-center mb-4 fw-bold"
-                            style="color: #f2a03a;">
-                            LinkedIn
+                        <h2 class="text-center mb-4 fw-bold">
+                            <i class="bi bi-linkedin linkedin-size text-primary"></i>
                         </h2>
                         <div class="border rounded-2 overflow-auto thin-scrollbar p-3"
                             style="height: 500px;">
@@ -639,7 +639,7 @@ require "data/banner-data.php";
                                         class="text-primary text-decoration-none">
 
                                         🔗
-                                         <?= $linkedin_profile['website'] ?>
+                                        <?= $linkedin_profile['website'] ?>
 
                                     </a>
 
@@ -685,10 +685,9 @@ require "data/banner-data.php";
 
                                             </div>
 
-                                            <a href="<?= $post['url'] ?>"
-                                                class="ms-auto bg-primary text-white px-1 rounded-sm text-decoration-none">
+                                            <a href="<?= $post['url'] ?>">
 
-                                                in
+                                                <i class="bi bi-linkedin linkedin-size text-primary"></i>
 
                                             </a>
 
@@ -734,409 +733,407 @@ require "data/banner-data.php";
 <?php include "data/home-data.php"; ?>
 
 <section class="py-5 bg-light">
-        <div class="container">
+    <div class="container">
 
-            <div class="row g-4">
+        <div class="row g-4">
 
-                <div class="col-lg-4 col-md-6 col-12">
+            <div class="col-lg-4 col-md-6 col-12">
 
-                    <div class="bg-white rounded-1 overflow-hidden">
+                <div class="bg-white rounded-1 overflow-hidden">
 
-                        <!-- Header -->
-                        <div class="text-center py-3"
+                    <!-- Header -->
+                    <div class="text-center py-3"
+                        style="background-color: #173E76;">
+
+                        <h5 class="mb-0 text-warning fw-semibold">
+                            News and Media
+                        </h5>
+
+                    </div>
+
+                    <!-- Scrollable Content -->
+                    <div class="p-3 news-list thin-scrollbar">
+
+                        <?php foreach ($news_media as $item): ?>
+
+                            <div class="border rounded-1 bg-white p-3 mb-3">
+
+                                <div class="row align-items-center">
+
+                                    <!-- Date -->
+                                    <div class="col-4 border-end">
+
+                                        <small class="text-dark">
+                                            <?= htmlspecialchars($item['date']); ?>
+                                        </small>
+
+                                    </div>
+
+                                    <!-- Title -->
+                                    <div class="col-8">
+
+                                        <a href="#" class="mb-0 small fw-medium text-dark text-decoration-none news-heading">
+                                            <?= htmlspecialchars($item['title']); ?>
+                                        </a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        <?php endforeach; ?>
+
+                    </div>
+
+                    <!-- View All -->
+                    <div class="text-end px-3 pb-3">
+
+                        <a href="<?= BASE_URL ?>news-media.php"
+                            class="btn btn-sm text-warning px-3 py-2"
                             style="background-color: #173E76;">
 
-                            <h5 class="mb-0 text-warning fw-semibold">
-                                News and Media
-                            </h5>
+                            View All
 
-                        </div>
-
-                        <!-- Scrollable Content -->
-                        <div class="p-3 news-list thin-scrollbar">
-
-                            <?php foreach ($news_media as $item): ?>
-
-                                <div class="border rounded-1 bg-white p-3 mb-3">
-
-                                    <div class="row align-items-center">
-
-                                        <!-- Date -->
-                                        <div class="col-4 border-end">
-
-                                            <small class="text-dark">
-                                                <?= htmlspecialchars($item['date']); ?>
-                                            </small>
-
-                                        </div>
-
-                                        <!-- Title -->
-                                        <div class="col-8">
-
-                                            <a href="#" class="mb-0 small fw-medium text-dark text-decoration-none news-heading">
-                                                <?= htmlspecialchars($item['title']); ?>
-                                            </a>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                            <?php endforeach; ?>
-
-                        </div>
-
-                        <!-- View All -->
-                        <div class="text-end px-3 pb-3">
-
-                            <a href="<?= BASE_URL ?>news-media.php"
-                                class="btn btn-sm text-warning px-3 py-2"
-                                style="background-color: #173E76;">
-
-                                View All
-
-                            </a>
-
-                        </div>
+                        </a>
 
                     </div>
 
                 </div>
 
+            </div>
 
-                <!-- ================= INDUSTRY UPDATES ================= -->
 
-                <div class="col-lg-4 col-md-6 col-12">
+            <!-- ================= INDUSTRY UPDATES ================= -->
 
-                    <div class="bg-white rounded-1 overflow-hidden">
+            <div class="col-lg-4 col-md-6 col-12">
 
-                        <!-- Header -->
-                        <div class="text-center py-3"
-                            style="background-color:#173E76;">
+                <div class="bg-white rounded-1 overflow-hidden">
 
-                            <h5 class="mb-0 text-warning fw-semibold">
-                                Industry Updates
-                            </h5>
+                    <!-- Header -->
+                    <div class="text-center py-3"
+                        style="background-color:#173E76;">
 
-                        </div>
+                        <h5 class="mb-0 text-warning fw-semibold">
+                            Industry Updates
+                        </h5>
 
-                        <!-- Scrollable Content -->
-                        <div class="p-3 news-list thin-scrollbar">
+                    </div>
 
-                            <?php foreach ($industry_updates as $item): ?>
+                    <!-- Scrollable Content -->
+                    <div class="p-3 news-list thin-scrollbar">
 
-                                <div class="border rounded-1 bg-white p-3 mb-3">
+                        <?php foreach ($industry_updates as $item): ?>
 
-                                    <div class="row align-items-center">
+                            <div class="border rounded-1 bg-white p-3 mb-3">
 
-                                        <!-- Date -->
-                                        <div class="col-4 border-end">
+                                <div class="row align-items-center">
 
-                                            <small class="text-dark">
-                                                <?= htmlspecialchars($item['date']); ?>
-                                            </small>
+                                    <!-- Date -->
+                                    <div class="col-4 border-end">
 
-                                        </div>
+                                        <small class="text-dark">
+                                            <?= htmlspecialchars($item['date']); ?>
+                                        </small>
 
-                                        <!-- Title -->
-                                        <div class="col-8">
+                                    </div>
 
-                                            <a href="#" class="mb-0 small fw-medium text-dark text-decoration-none news-heading">
-                                                <?= htmlspecialchars($item['title']); ?>
-                                            </a>
+                                    <!-- Title -->
+                                    <div class="col-8">
 
-                                        </div>
+                                        <a href="#" class="mb-0 small fw-medium text-dark text-decoration-none news-heading">
+                                            <?= htmlspecialchars($item['title']); ?>
+                                        </a>
 
                                     </div>
 
                                 </div>
 
-                            <?php endforeach; ?>
+                            </div>
 
-                        </div>
+                        <?php endforeach; ?>
 
-                        <!-- View All -->
-                        <div class="text-end px-3 pb-3">
+                    </div>
 
-                            <a href="<?= BASE_URL ?>industry-updates.php"
-                                class="btn btn-sm text-warning px-3 py-2"
-                                style="background-color: #173E76;">
+                    <!-- View All -->
+                    <div class="text-end px-3 pb-3">
 
-                                View All
+                        <a href="<?= BASE_URL ?>industry-updates.php"
+                            class="btn btn-sm text-warning px-3 py-2"
+                            style="background-color: #173E76;">
 
-                            </a>
+                            View All
 
-                        </div>
+                        </a>
 
                     </div>
 
                 </div>
 
+            </div>
 
-                <!-- ================= PRESS RELEASES ================= -->
 
-                <div class="col-lg-4 col-md-6 col-12">
+            <!-- ================= PRESS RELEASES ================= -->
 
-                    <div class="bg-white rounded-1 overflow-hidden">
+            <div class="col-lg-4 col-md-6 col-12">
 
-                        <!-- Header -->
-                        <div class="text-center py-3"
-                            style="background-color:#173E76;">
+                <div class="bg-white rounded-1 overflow-hidden">
 
-                            <h5 class="mb-0 text-warning fw-semibold">
-                                Press Releases
-                            </h5>
+                    <!-- Header -->
+                    <div class="text-center py-3"
+                        style="background-color:#173E76;">
 
-                        </div>
-
-                        <!-- Scrollable Content -->
-                        <div class="p-3 news-list thin-scrollbar">
-
-                            <?php foreach ($press_releases as $item): ?>
-
-                                <div class="border rounded-1 bg-white p-3 mb-3">
-
-                                    <div class="row align-items-center">
-
-                                        <!-- Date -->
-                                        <div class="col-4 border-end">
-
-                                            <small class="text-dark">
-                                                <?= htmlspecialchars($item['date']); ?>
-                                            </small>
-
-                                        </div>
-
-                                        <!-- Title -->
-                                        <div class="col-8">
-
-                                            <a href="#" class="mb-0 small fw-medium text-dark text-decoration-none news-heading">
-                                                <?= htmlspecialchars($item['title']); ?>
-                                            </a>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                            <?php endforeach; ?>
-
-                        </div>
-
-                        <!-- View All -->
-                        <div class="text-end px-3 pb-3">
-
-                            <a href="<?= BASE_URL ?>dnoai-press-releases.php"
-                                class="btn btn-sm text-warning px-3 py-2"
-                                style="background-color:#173E76;">
-
-                                View All
-
-                            </a>
-
-                        </div>
+                        <h5 class="mb-0 text-warning fw-semibold">
+                            Press Releases
+                        </h5>
 
                     </div>
 
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Scrollable Content -->
+                    <div class="p-3 news-list thin-scrollbar">
 
-                    <div class="bg-white rounded-1 overflow-hidden">
+                        <?php foreach ($press_releases as $item): ?>
 
-                        <!-- Header -->
-                        <div class="text-center py-3"
-                            style="background-color:#173E76;">
+                            <div class="border rounded-1 bg-white p-3 mb-3">
 
-                            <h5 class="mb-0 text-warning fw-semibold">
-                                Consultation Papers & Recos
-                            </h5>
+                                <div class="row align-items-center">
 
-                        </div>
+                                    <!-- Date -->
+                                    <div class="col-4 border-end">
 
-                        <!-- Scrollable Content -->
-                        <div class="p-3 news-list thin-scrollbar">
+                                        <small class="text-dark">
+                                            <?= htmlspecialchars($item['date']); ?>
+                                        </small>
 
-                            <?php foreach ($consultation_Papers_Recos as $item): ?>
+                                    </div>
 
-                                <div class="border rounded-1 bg-white p-3 mb-3">
+                                    <!-- Title -->
+                                    <div class="col-8">
 
-                                    <div class="row align-items-center">
-
-                                        <!-- Date -->
-                                        <div class="col-4 border-end">
-
-                                            <small class="text-dark">
-                                                <?= htmlspecialchars($item['date']); ?>
-                                            </small>
-
-                                        </div>
-
-                                        <!-- Title -->
-                                        <div class="col-8">
-
-                                            <a href="#" class="mb-0 small fw-medium text-dark text-decoration-none news-heading">
-                                                <?= htmlspecialchars($item['title']); ?>
-                                            </a>
-                                            <p class="small fw-medium text-muted"><?= htmlspecialchars($item['remark']); ?></p>
-
-                                        </div>
+                                        <a href="#" class="mb-0 small fw-medium text-dark text-decoration-none news-heading">
+                                            <?= htmlspecialchars($item['title']); ?>
+                                        </a>
 
                                     </div>
 
                                 </div>
 
-                            <?php endforeach; ?>
+                            </div>
 
-                        </div>
+                        <?php endforeach; ?>
 
-                        <!-- View All -->
-                        <div class="text-end px-3 pb-3">
+                    </div>
 
-                            <a href="<?= BASE_URL ?>consultation-papers.php"
-                                class="btn btn-sm text-warning px-3 py-2"
-                                style="background-color: #173E76;">
+                    <!-- View All -->
+                    <div class="text-end px-3 pb-3">
 
-                                View All
+                        <a href="<?= BASE_URL ?>dnoai-press-releases.php"
+                            class="btn btn-sm text-warning px-3 py-2"
+                            style="background-color:#173E76;">
 
-                            </a>
+                            View All
 
-                        </div>
+                        </a>
 
                     </div>
 
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-12">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
 
-                    <div class="bg-white rounded-1 overflow-hidden">
+                <div class="bg-white rounded-1 overflow-hidden">
 
-                        <!-- Header -->
-                        <div class="text-center py-3"
-                            style="background-color:#173E76;">
+                    <!-- Header -->
+                    <div class="text-center py-3"
+                        style="background-color:#173E76;">
 
-                            <h5 class="mb-0 text-warning fw-semibold">
-                                Rules & Regulations
-                            </h5>
+                        <h5 class="mb-0 text-warning fw-semibold">
+                            Consultation Papers & Recos
+                        </h5>
 
-                        </div>
+                    </div>
 
-                        <!-- Scrollable Content -->
-                        <div class="p-3 news-list thin-scrollbar">
+                    <!-- Scrollable Content -->
+                    <div class="p-3 news-list thin-scrollbar">
 
-                            <?php foreach ($rules_Regulations as $item): ?>
+                        <?php foreach ($consultation_Papers_Recos as $item): ?>
 
-                                <div class="border rounded-1 bg-white p-3 mb-3">
+                            <div class="border rounded-1 bg-white p-3 mb-3">
 
-                                    <div class="row align-items-center">
+                                <div class="row align-items-center">
 
-                                        <!-- Date -->
-                                        <div class="col-4 border-end">
+                                    <!-- Date -->
+                                    <div class="col-4 border-end">
 
-                                            <small class="text-dark">
-                                                <?= htmlspecialchars($item['date']); ?>
-                                            </small>
+                                        <small class="text-dark">
+                                            <?= htmlspecialchars($item['date']); ?>
+                                        </small>
 
-                                        </div>
+                                    </div>
 
-                                        <!-- Title -->
-                                        <div class="col-8">
+                                    <!-- Title -->
+                                    <div class="col-8">
 
-                                            <a href="#" class="mb-0 small fw-medium text-dark text-decoration-none news-heading">
-                                                <?= htmlspecialchars($item['title']); ?>
-                                            </a>
-
-                                            <p class="small text-muted"> <?= htmlspecialchars($item['remark']); ?> </p>
-
-                                        </div>
+                                        <a href="#" class="mb-0 small fw-medium text-dark text-decoration-none news-heading">
+                                            <?= htmlspecialchars($item['title']); ?>
+                                        </a>
+                                        <p class="small fw-medium text-muted"><?= htmlspecialchars($item['remark']); ?></p>
 
                                     </div>
 
                                 </div>
 
-                            <?php endforeach; ?>
+                            </div>
 
-                        </div>
+                        <?php endforeach; ?>
 
-                        <!-- View All -->
-                        <div class="text-end px-3 pb-3">
+                    </div>
 
-                            <a href="<?= BASE_URL ?>rules-regulations.php"
-                                class="btn btn-sm text-warning px-3 py-2"
-                                style="background-color:#173E76;">
+                    <!-- View All -->
+                    <div class="text-end px-3 pb-3">
 
-                                View All
+                        <a href="<?= BASE_URL ?>consultation-papers.php"
+                            class="btn btn-sm text-warning px-3 py-2"
+                            style="background-color: #173E76;">
 
-                            </a>
+                            View All
 
-                        </div>
+                        </a>
 
                     </div>
 
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-12">
+            </div>
 
-                    <div class="bg-white rounded-1 overflow-hidden">
+            <div class="col-lg-4 col-md-6 col-12">
 
-                        <!-- Header -->
-                        <div class="text-center py-3"
-                            style="background-color:#173E76;">
+                <div class="bg-white rounded-1 overflow-hidden">
 
-                            <h5 class="mb-0 text-warning fw-semibold">
-                                Website Links
-                            </h5>
+                    <!-- Header -->
+                    <div class="text-center py-3"
+                        style="background-color:#173E76;">
 
-                        </div>
+                        <h5 class="mb-0 text-warning fw-semibold">
+                            Rules & Regulations
+                        </h5>
 
-                        <!-- Scrollable Content -->
-                        <div class="p-3 news-list thin-scrollbar">
+                    </div>
 
-                            <?php foreach ($websites_Links as $item): ?>
+                    <!-- Scrollable Content -->
+                    <div class="p-3 news-list thin-scrollbar">
 
-                                <div class="border rounded-1 bg-white p-3 mb-3">
+                        <?php foreach ($rules_Regulations as $item): ?>
 
-                                    <div class="row align-items-center">
+                            <div class="border rounded-1 bg-white p-3 mb-3">
 
-                                        <!-- Date -->
-                                        <div class="border-end">
+                                <div class="row align-items-center">
 
-                                            <small class="text-dark">
-                                                <?= htmlspecialchars($item['name']); ?>
-                                            </small>
+                                    <!-- Date -->
+                                    <div class="col-4 border-end">
 
-                                        </div>
+                                        <small class="text-dark">
+                                            <?= htmlspecialchars($item['date']); ?>
+                                        </small>
 
-                                        <!-- Title -->
-                                        <div class="col-8">
+                                    </div>
 
-                                            <a href="<?= htmlspecialchars($item['link']); ?>" class="mb-0 small fw-medium text-muted">
-                                                <?= htmlspecialchars($item['link']); ?>
-                                            </a>
+                                    <!-- Title -->
+                                    <div class="col-8">
 
-                                        </div>
+                                        <a href="#" class="mb-0 small fw-medium text-dark text-decoration-none news-heading">
+                                            <?= htmlspecialchars($item['title']); ?>
+                                        </a>
+
+                                        <p class="small text-muted"> <?= htmlspecialchars($item['remark']); ?> </p>
 
                                     </div>
 
                                 </div>
 
-                            <?php endforeach; ?>
+                            </div>
 
-                        </div>
+                        <?php endforeach; ?>
 
-                        <!-- View All -->
-                        <div class="text-end px-3 pb-3">
+                    </div>
 
-                            <a href="<?= BASE_URL ?>relevant-websites.php"
-                                class="btn btn-sm text-warning px-3 py-2"
-                                style="background-color: #173E76;">
+                    <!-- View All -->
+                    <div class="text-end px-3 pb-3">
 
-                                View All
+                        <a href="<?= BASE_URL ?>rules-regulations.php"
+                            class="btn btn-sm text-warning px-3 py-2"
+                            style="background-color:#173E76;">
 
-                            </a>
+                            View All
 
-                        </div>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+
+                <div class="bg-white rounded-1 overflow-hidden">
+
+                    <!-- Header -->
+                    <div class="text-center py-3"
+                        style="background-color:#173E76;">
+
+                        <h5 class="mb-0 text-warning fw-semibold">
+                            Website Links
+                        </h5>
+
+                    </div>
+
+                    <!-- Scrollable Content -->
+                    <div class="p-3 news-list thin-scrollbar">
+
+                        <?php foreach ($websites_Links as $item): ?>
+
+                            <div class="border rounded-1 bg-white p-3 mb-3">
+
+                                <div class="row align-items-center">
+
+                                    <!-- Date -->
+                                    <div class="border-end">
+
+                                        <small class="text-dark">
+                                            <?= htmlspecialchars($item['name']); ?>
+                                        </small>
+
+                                    </div>
+
+                                    <!-- Title -->
+                                    <div class="col-8">
+
+                                        <a href="<?= htmlspecialchars($item['link']); ?>" class="mb-0 small fw-medium text-muted">
+                                            <?= htmlspecialchars($item['link']); ?>
+                                        </a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        <?php endforeach; ?>
+
+                    </div>
+
+                    <!-- View All -->
+                    <div class="text-end px-3 pb-3">
+
+                        <a href="<?= BASE_URL ?>relevant-websites.php"
+                            class="btn btn-sm text-warning px-3 py-2"
+                            style="background-color: #173E76;">
+
+                            View All
+
+                        </a>
 
                     </div>
 
@@ -1146,8 +1143,10 @@ require "data/banner-data.php";
 
         </div>
 
-        <!-- Coming Soon Overlay -->
-        <!-- <div class="social-coming-soon">
+    </div>
+
+    <!-- Coming Soon Overlay -->
+    <!-- <div class="social-coming-soon">
             <div class="social-coming-soon-content">
 
                 <i class="bi bi-clock"></i>
@@ -1158,8 +1157,8 @@ require "data/banner-data.php";
 
             </div>
         </div> -->
-    
-    
+
+
 </section>
 
 <section class="py-5">
@@ -1190,11 +1189,11 @@ require "data/banner-data.php";
 
             <!-- Right Button -->
             <div class="col-lg-4 p-4 p-lg-5 text-lg-end text-center"
-                 style="background-color: #f6f8fc;">
+                style="background-color: #f6f8fc;">
 
                 <a href="<?= BASE_URL ?>membership-registration.php"
-                   class="btn px-4 py-3 fw-semibold text-white"
-                   style="background-color: #173E76; border-radius: 8px;">
+                    class="btn px-4 py-3 fw-semibold text-white"
+                    style="background-color: #173E76; border-radius: 8px;">
 
                     Become a Member
                     <span class="ms-2">→</span>

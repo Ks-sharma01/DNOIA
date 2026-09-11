@@ -4,12 +4,12 @@ $directors = [
     [
         "name" => "Mr. Sanjiv Narain",
         "image" => "assets/images/directors/sn.jpg",
-        "designation" => "Founder, Axom Communications & Cable Private Limited"
+        "designation" => "President, DNOAI | Founder, Axom ISPL"
     ],
     [
         "name" => "Mr. Ravi Gupta",
         "image" => "assets/images/directors/ravi_gupta_ji.jpeg",
-        "designation" => "CEO & Founder, DDC CATV Network Pvt. Ltd"
+        "designation" => "Vice-President, DNOAI | CEO & Founder, DDC CATV Network Pvt. Ltd"
     ],
     [
         "name" => "Mr. Krishnamohan Rao",

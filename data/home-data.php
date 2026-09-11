@@ -185,21 +185,37 @@ $currentRules_Regulations = array_slice($rules_Regulations, $startIndex, $itemsP
 $websites_Links = [
     [
 
-        "name" => "Axom Communications & Cable Private Limited",
-        "link" => "https://axom.co.in/"
+        "name" => "Ministry of Information and Broadcasting",
+        "link" => "https://mib.gov.in/"
     ],
     [
-        "name" => "DDC CATV Network Pvt. Ltd",
-        "link" => "https://www.ddccatv.com/"
+        "name" => "Telecom Regulatory Authority of India",
+        "link" => "https://trai.gov.in/"
     ],
   
     [
-        "name" => "Siti Networks Limited",
-        "link" => "https://www.sitinetworks.com/"
+        "name" => "Telecom Disputes Settlement & Appellate Tribunal",
+        "link" => "https://tdsat.gov.in/Delhi/Delhi.php"
     ],
     [
-        "name" => "Rajasthan Infotech Media Services Private Limited",
-        "link" => "https://rajasthaninfotech.in/"
+        "name" => "Prasar Bharati",
+        "link" => "https://prasarbharati.gov.in/"
+    ],
+    [
+        "name" => "Press Information Bureau",
+        "link" => "https://pib.gov.in/"
+    ],
+    [
+        "name" => "News Broadcasters & Digital Association",
+        "link" => "https://www.nbdanewdelhi.com/"
+    ],
+    [
+        "name" => "Indian Broadcasting and Digital Foundation",
+        "link" => "https://www.ibdf.com/"
+    ],
+    [
+        "name" => "Broadcast Seva",
+        "link" => "https://new.broadcastseva.gov.in/digigov-portal-web-app/"
     ],
    
 ];

@@ -68,9 +68,9 @@
                         <a href="<?= BASE_URL ?>about.php#contentId">DNOAI</a>
                     </li>
 
-                     <li>
+                    <li>
                         <a
-                            
+
                             href="<?= BASE_URL ?>about.php#coreValuesId">
                             Core Values of DNOAI
                         </a>
@@ -133,15 +133,15 @@
                             Members
                         </a>
                     </li>
-                        <li>
-                            <a
-                                class="dropdown-item"
-                                href="<?= BASE_URL ?>members.php#becomememberId">
-                                
-                                Become a Member
+                    <li>
+                        <a
+                            class="dropdown-item"
+                            href="<?= BASE_URL ?>members.php#becomememberId">
 
-                            </a>
-                        </li>
+                            Become a Member
+
+                        </a>
+                    </li>
 
                 </ul>
 
@@ -207,55 +207,44 @@
 
     <!-- ================= BOTTOM FOOTER ================= -->
 
-    <div class="footer-bottom">
+    <div class="footer-bottom bg-white">
 
         <div class="container-fluid px-lg-5 px-4">
 
-            <div class="row align-items-center">
+            <div class="row footer-bottom align-items-center">
 
-                <!-- Copyright -->
-                <div class="col-lg-4 col-md-4 col-12">
+                <!-- Copyright / Powered By -->
+                <div class="col-lg-6 col-md-6 col-6">
 
-                    <p class="copyright mb-0">
-                        <a href="https://tellyon.com/" class="text-white" style="text-decoration: none;">
+                    <div class="powered-wrapper">
 
-                            <span>Powered by</span>
-                            
+                        <a href="https://tellyon.com/"
+                            class="powered-link">
+
+                            <span class="powered-by">Powered by</span>
+
                             <img
-                            src="<?= BASE_URL ?>assets/images/download.jpg"
-                            alt="Tellyon"
-                            width="50"
-                            height="50"
-                            style="background-color: #173E76; object-fit: contain;">
+                                src="<?= BASE_URL ?>assets/images/download.jpg"
+                                alt="Tellyon"
+                                class="tellyon-logo">
+
                         </a>
-                    </p>
+
+                    </div>
 
                 </div>
 
-
-                <!-- Logo -->
-                <div class="col-lg-4 col-md-4 col-12 text-center">
-
-                    <!-- <img
-                        src="assets/images/logo.png"
-                        alt="AIDCF"
-                        class="footer-logo"
-                        > -->
-
-                </div>
-
-
-                <!-- Social -->
-                <div class="col-lg-4 col-md-4 col-12 text-center">
+                <!-- Social Icons -->
+                <div class="col-lg-6 col-md-6 col-6">
 
                     <div class="social-icons">
 
                         <a href="https://x.com/" class="social-btn">
-                            X
+                            <i class="bi bi-twitter-x x-size-footer"></i>
                         </a>
 
                         <a href="https://www.linkedin.com/home" class="social-btn">
-                            in
+                            <i class="bi bi-linkedin linkedin-size-footer"></i>
                         </a>
 
                     </div>

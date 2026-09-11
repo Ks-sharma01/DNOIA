@@ -103,7 +103,8 @@ require_once __DIR__ . '/includes/header.php';
 
                         <div class="col-md-6">
                             <label class="form-label">
-                                Legal Name of Network <span class="text-danger">*</span>
+                                Legal Name of Network 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -117,7 +118,8 @@ require_once __DIR__ . '/includes/header.php';
 
                         <div class="col-md-6">
                             <label class="form-label">
-                                Name of MSO <span class="text-danger">*</span>
+                                Name of MSO 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -133,7 +135,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-md-6">
 
                             <label class="form-label">
-                                Constitution of Organization <span class="text-danger">*</span>
+                                Constitution of Organization 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <select
@@ -156,7 +159,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-md-6">
 
                             <label class="form-label">
-                                Date of Incorporation / Constitution <span class="text-danger">*</span>
+                                Date of Incorporation / Constitution 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -183,7 +187,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-12">
 
                             <label class="form-label">
-                                Registered / Principal Office Address <span class="text-danger">*</span>
+                                Registered / Principal Office Address 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <textarea
@@ -197,7 +202,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-md-4">
 
                             <label class="form-label">
-                                City <span class="text-danger">*</span>
+                                City 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -211,7 +217,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-md-4">
 
                             <label class="form-label">
-                                State <span class="text-danger">*</span>
+                                State 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -225,7 +232,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-md-4">
 
                             <label class="form-label">
-                                PIN Code <span class="text-danger">*</span>
+                                PIN Code 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -241,7 +249,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-md-6">
 
                             <label class="form-label">
-                                Telephone <span class="text-danger">*</span>
+                                Telephone 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -291,7 +300,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-md-6">
 
                             <label class="form-label">
-                                Name <span class="text-danger">*</span>
+                                Name 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -305,7 +315,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-md-6">
 
                             <label class="form-label">
-                                Father's Name <span class="text-danger">*</span>
+                                Father's Name 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -319,7 +330,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-md-6">
 
                             <label class="form-label">
-                                Designation <span class="text-danger">*</span>
+                                Designation 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -334,7 +346,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-12">
 
                             <label class="form-label">
-                                Correspondence Address <span class="text-danger">*</span>
+                                Correspondence Address 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <textarea
@@ -349,7 +362,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-md-6">
 
                             <label class="form-label">
-                                Mobile <span class="text-danger">*</span>
+                                Mobile 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -366,7 +380,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-md-6">
 
                             <label class="form-label">
-                                Email <span class="text-danger">*</span>
+                                Email 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -393,10 +408,12 @@ require_once __DIR__ . '/includes/header.php';
 
                     <hr>
 
-                    <h5 class="font-semibold">Nature of Business <span class="text-danger">*</span></h5>
-                    <span>Please tick the applicable activities:</span>
+                    <h5 class="font-semibold">Nature of Business 
+                        <!-- <span class="text-danger">*</span> -->
+                    </h5>
+                    <span class="text-muted">Please tick the applicable activities:</span>
 
-                    <div class="row mt-3">
+                    <div class="row mt-2">
 
                         <div class="col-md-6">
                             <div class="form-check">
@@ -490,7 +507,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-12">
 
                             <label class="form-label">
-                                State(s) in which the MSO operates <span class="text-danger">*</span>
+                                State(s) in which the MSO operates 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -503,7 +521,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-12">
 
                             <label class="form-label">
-                                Districts / Cities / Areas Covered <span class="text-danger">*</span>
+                                Districts / Cities / Areas Covered 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <textarea
@@ -517,7 +536,8 @@ require_once __DIR__ . '/includes/header.php';
                             <h5 class="mt-2">Network / Subscriber Details:</h5>
 
                             <label class="form-label">
-                                Active Subscribers (Approx.) <span class="text-danger">*</span>
+                                Active Subscribers (Approx.) 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -551,7 +571,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-md-6">
 
                             <label class="form-label">
-                                License No. <span class="text-danger">*</span>
+                                License No. 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -564,7 +585,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-md-6">
 
                             <label class="form-label">
-                                Issue Date <span class="text-danger">*</span>
+                                Issue Date 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -577,7 +599,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-md-6">
 
                             <label class="form-label">
-                                Expiry Date <span class="text-danger">*</span>
+                                Expiry Date 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -591,7 +614,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-md-6">
 
                             <label class="form-label">
-                                GST No. <span class="text-danger">*</span>
+                                GST No. 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -604,7 +628,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-md-6">
 
                             <label class="form-label">
-                                PAN No. <span class="text-danger">*</span>
+                                PAN No. 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -618,7 +643,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-md-6">
 
                             <label class="form-label">
-                                Aadhaar No. <span class="text-danger">*</span>
+                                Aadhaar No. 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -697,7 +723,8 @@ require_once __DIR__ . '/includes/header.php';
                     <h4>Part E – Membership Category</h4>
 
                     <p class="text-muted">
-                        Select the category under which you seek admission <span class="text-danger">*</span>
+                        Select the category under which you seek admission 
+                        <!-- <span class="text-danger">*</span> -->
                     </p>
 
                     <hr>
@@ -815,7 +842,8 @@ require_once __DIR__ . '/includes/header.php';
 
                             <div>
                                 <strong>
-                                    <?= htmlspecialchars($label) ?> <span class="text-danger">*</span>
+                                    <?= htmlspecialchars($label) ?> 
+                                    <!-- <span class="text-danger">*</span> -->
                                 </strong>
                             </div>
 
@@ -850,9 +878,8 @@ require_once __DIR__ . '/includes/header.php';
 
                     <hr>
 
-                    <div class="row g-4">
+                    <!-- <div class="row g-4">
 
-                        <!-- BANK DETAILS -->
                         <div class="col-12">
                             <div class="card border-0 shadow-sm">
                                 <div class="card-body">
@@ -942,7 +969,6 @@ require_once __DIR__ . '/includes/header.php';
                         </div>
 
 
-                        <!-- PAYMENT DETAILS -->
                         <div class="col-12">
 
                             <h5 class="mb-3">
@@ -1070,7 +1096,7 @@ require_once __DIR__ . '/includes/header.php';
 
                         </div>
 
-                    </div>
+                    </div> -->
 
                 </div>
 
@@ -1088,7 +1114,7 @@ require_once __DIR__ . '/includes/header.php';
 
                     <div class="declaration-box">
 
-                        <p>
+                        <p style="text-align: justify;">
                             I / We hereby apply for membership of
                             <strong>DNOAI – Association of MSOs</strong>
                             and confirm that the information furnished in this
@@ -1097,14 +1123,14 @@ require_once __DIR__ . '/includes/header.php';
                             and belief.
                         </p>
 
-                        <p>
+                        <p style="text-align: justify;">
                             I / We further confirm that I / We are / am operating
                             the business in accordance with applicable laws,
                             regulations, directions and orders of competent
                             authorities.
                         </p>
 
-                        <p>
+                        <p style="text-align: justify;">
                             I / We have read and understood all the governing
                             documents, membership rules and bye-laws of DNOAI,
                             as amended from time to time.
@@ -1115,7 +1141,7 @@ require_once __DIR__ . '/includes/header.php';
                         </p>
 
                         <ol>
-                            <li class="mb-2">
+                            <li class="mb-2" style="text-align: justify;">
                                 Abide by the Memorandum, Articles, Rules, Regulations,
                                 Bye-Laws and policies of DNOAI.
                             </li>
@@ -1130,27 +1156,27 @@ require_once __DIR__ . '/includes/header.php';
                                 be required by DNOAI.
                             </li>
 
-                            <li class="mb-2">
+                            <li class="mb-2" style="text-align: justify;">
                                 Promptly inform DNOAI of any material change in the
                                 information furnished.
                             </li>
 
-                            <li class="mb-2">
+                            <li class="mb-2" style="text-align: justify;">
                                 Conduct the business in accordance with applicable
                                 laws and regulatory requirements.
                             </li>
 
-                            <li class="mb-2">
+                            <li class="mb-2" style="text-align: justify;">
                                 Maintain the professional integrity and reputation
                                 expected of a member of DNOAI.
                             </li>
 
-                            <li class="mb-2">
+                            <li class="mb-2" style="text-align: justify;">
                                 Pay membership fees, subscriptions and other lawful
                                 dues within the prescribed time.
                             </li>
 
-                            <li>
+                            <li style="text-align: justify;">
                                 Understand that admission to membership is subject
                                 to approval by the competent authority of DNOAI.
                             </li>
@@ -1171,7 +1197,7 @@ require_once __DIR__ . '/includes/header.php';
 
                         <label class="form-check-label" for="declaration">
                             I / We agree to the above declaration and undertaking.
-                            <span class="text-danger">*</span>
+                            <!-- <span class="text-danger">*</span> -->
                         </label>
 
                         <div
@@ -1194,7 +1220,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-md-6">
 
                             <label for="signatory_name" class="form-label">
-                                Name <span class="text-danger">*</span>
+                                Name 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -1218,7 +1245,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-md-6">
 
                             <label for="signatory_designation" class="form-label">
-                                Designation <span class="text-danger">*</span>
+                                Designation 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -1241,7 +1269,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-md-6">
 
                             <label for="signature" class="form-label">
-                                Signature <span class="text-danger">*</span>
+                                Signature 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -1268,7 +1297,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-md-3">
 
                             <label for="signatory_date" class="form-label">
-                                Date <span class="text-danger">*</span>
+                                Date 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input
@@ -1290,7 +1320,8 @@ require_once __DIR__ . '/includes/header.php';
                         <div class="col-md-3">
 
                             <label for="signatory_place" class="form-label">
-                                Place <span class="text-danger">*</span>
+                                Place 
+                                <!-- <span class="text-danger">*</span> -->
                             </label>
 
                             <input

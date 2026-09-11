@@ -24,7 +24,7 @@ require_once __DIR__ . '/includes/header.php';
 </div>
 
 
-<!-- <?php require "data/home-data.php"; ?>
+<?php require "data/home-data.php"; ?>
 <section class="py-4 bg-light">
 
     <div class="container">
@@ -91,31 +91,9 @@ require_once __DIR__ . '/includes/header.php';
 
     </div>
 
-</section> -->
+</section>
 
-<div class="social-overlay-wrapper">
 
-    <div class="border rounded-2 overflow-auto thin-scrollbar p-3"
-        style="height: 500px;">
-
-        <!-- ALL YOUR EXISTING CODE -->
-
-    </div>
-
-    <!-- Coming Soon Overlay -->
-    <div class="social-coming-soon">
-        <div class="social-coming-soon-content">
-
-            <i class="bi bi-clock"></i>
-
-            <h3>Coming Soon</h3>
-
-            <p>Relevant Websites will be available soon.</p>
-
-        </div>
-    </div>
-
-</div>
 
 <?php
 

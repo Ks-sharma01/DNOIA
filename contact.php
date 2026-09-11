@@ -11,8 +11,7 @@ require_once __DIR__ . '/includes/header.php';
         src="<?= BASE_URL ?>assets/images/flash_lighting.jpg"
         alt="AIDCF"
         class="img-fluid w-100 d-block"
-        style="height: 180px; object-fit: cover;"
-    >
+        style="height: 180px; object-fit: cover;">
 
     <h1
         class="position-absolute top-50 start-50 translate-middle
@@ -83,49 +82,48 @@ require_once __DIR__ . '/includes/header.php';
         <!-- MEMBERSHIP -->
         <div class="col-lg-8 col-md-6 col-12 p-4">
 
-             <div class="container">
+            <div class="container">
 
-        <div class="row align-items-center bg-white rounded-4 shadow-sm overflow-hidden">
+                <div class="row align-items-center bg-white rounded-4 shadow-sm overflow-hidden">
 
-            <!-- Left Content -->
-            <div class="col-lg-8 p-4 p-lg-5">
+                    <!-- Left Content -->
+                    <div class="col-lg-8 p-4 p-lg-5">
 
-                <span
-                    class="text-uppercase fw-bold small"
-                    style="color: #F2A03A;">
-                    Membership
-                </span>
+                        <span
+                            class="text-uppercase fw-bold small"
+                            style="color: #F2A03A;">
+                            Membership
+                        </span>
 
-                <h2 class="fw-bold mt-2 mb-3" style="color: #173E76;">
-                    Become a Member of DNOAI
-                </h2>
+                        <h2 class="fw-bold mt-2 mb-3" style="color: #173E76;">
+                            Become a Member of DNOAI
+                        </h2>
 
-                <p class="text-secondary mb-0">
-                    Join the Digital Network Operators Association of India
-                    and become part of a strong network representing the
-                    interests of digital network operators across India.
-                </p>
+                        <p class="text-secondary mb-0">
+                            Join the Digital Network Operators Association of India
+                            and become part of a strong network representing the
+                            interests of digital network operators across India.
+                        </p>
+
+                    </div>
+
+                    <!-- Right Button -->
+                    <div class="col-lg-4 p-4 p-lg-5 text-lg-end text-center">
+
+                        <a href="<?= BASE_URL ?>membership-registration.php"
+                            class="btn px-4 py-3 fw-semibold text-white text-nowrap"
+                            style="background-color: #173E76; border-radius: 8px;">
+
+                            Become a Member
+                            <span class="ms-2">→</span>
+
+                        </a>
+
+                    </div>
+
+                </div>
 
             </div>
-
-            <!-- Right Button -->
-            <div class="col-lg-4 p-4 p-lg-5 text-lg-end text-center"
-                 style="background-color: #f6f8fc;">
-
-                <a href="<?= BASE_URL ?>membership-registration.php"
-                   class="btn px-4 py-3 fw-semibold text-white"
-                   style="background-color: #173E76; border-radius: 8px;">
-
-                    Become a Member
-                    <span class="ms-2">→</span>
-
-                </a>
-
-            </div>
-
-        </div>
-
-    </div>
 
         </div>
 

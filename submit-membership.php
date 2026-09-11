@@ -491,18 +491,7 @@ $data = [
 
 ];
 
-/*
-|--------------------------------------------------------------------------
-| Redirect
-|--------------------------------------------------------------------------
-*/
 
-// header(
-//     "Location: membership-success.php?application=" .
-//     urlencode($applicationNo)
-// );
-
-// exit;
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -1145,7 +1134,7 @@ try {
                         border-radius:6px;'>
 
                 <strong>Submitted At:</strong>
-                " . date("d-M-Y h:i A") . "
+                " . date("d-M-Y") . "
 
             </div>
 

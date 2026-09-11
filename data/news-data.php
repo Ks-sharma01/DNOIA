@@ -20,32 +20,32 @@ $news_info = [
         "heading" => "DNOAI Calls for Greater Collaboration Across the Digital Network Ecosystem",
         "date" => "19-Mar-26",
         "description" => "The battle between traditional television distributors and digital platforms has found its way to the courts, with the All India…",
-        "link" => "https://www.medianama.com/2026/03/225-dnoia-moves-tdsat-over-waves-plan-to-stream-linear-tv-channels/"
+        "link" => ""
     ],
     [
         "image" => "assets/images/truTv_iptv.jpg",
-        "heading" => "DNOAI Strengthens Its Focus on a Future-Ready Digital Connectivity Ecosystem",
-        "date" => "25-Mar-26",
-        "description" => "DNOAI seeks to encourage constructive dialogue on the development of a robust and sustainable digital network ecosystem…",
-        "link" => "https://www.medianama.com/2026/03/226-tdsat-issues-notice-to-prasar-bharati-over-waves-ott-onboarding-row/"
-    ],
-    [
-        "image" => "assets/images/truTv_iptv.jpg",
-        "heading" => "DNOAI seeks to contribute to the development of a stronger, more connected",
+        "heading" => "DNOAI is committed to strengthening collab and growth",        
         "date" => "19-Mar-26",
         "description" => "Digital Network Operator Association of India (DNOAI), an industry body representing multi-system operators (MSOs)…",
-        "link" => "https://www.medianama.com/2026/03/227-cable-operators-move-tdsat-against-prasar-bharatis-waves-ott/"
-    ],
+        "link" => ""
+        ],
     [
         "image" => "assets/images/truTv_iptv.jpg",
         "heading" => "Cable Industry in limbo as Government stays silent on AGR burden",
         "date" => "25-Feb-26",
         "description" => "In its July representation, DNOAI, which represents leading Multi System Operators reaching over 4.5 crore…",
-        "link" => "https://www.medianama.com/2026/02/228-cable-industry-in-limbo-as-government-stays-silent-on-agr-burden/"
+        "link" => ""
         
-    ],
-];
-
+        ],
+        [
+            "image" => "assets/images/truTv_iptv.jpg",
+            "heading" => "DNOAI Strengthens Its Focus on a Future-Ready Digital Connectivity Ecosystem",
+            "date" => "25-Mar-26",
+            "description" => "DNOAI aims to encourage collaboration, innovation and dialogue for the growth of a stronger digital network ecosystem…",
+            "link" => ""
+        ],
+        ];
+        
 // Number of news items per page
 $itemsPerPage = 10;
 

@@ -15,9 +15,10 @@ require_once __DIR__ . '/includes/header.php';
     >
 
     <h1 class="position-absolute top-50 start-50 translate-middle
-           text-warning fw-bold text-center mb-0 hero-title">
+           text-warning fw-bold text-center mb-0">
             Consultation Papers & Recommendations
     </h1>
+    
 
 </div>
 

@@ -11,8 +11,8 @@ $governingCouncil = [
         'position' => 'Vice-President, DNOAI | CEO & Founder, DDC CATV Network Pvt. Ltd'
     ],
     [
-        'name' => 'Mr. Garish Gupta',
-        'position' => 'Legal Advisory'
+        'name' => 'Mr. Girish Bhuttan',
+        'position' => 'Legal Consultant'
     ],
   
 ];
