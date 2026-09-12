@@ -98,7 +98,7 @@ require_once __DIR__ . '/includes/header.php';
 
                     <h4>Part A – Particulars of the Applicant</h4>
                     <p class="text-muted">
-                        Organization / MSO Details
+                        Name of the MSO / Applicant Organization
                     </p>
 
                     <hr>
@@ -668,7 +668,7 @@ require_once __DIR__ . '/includes/header.php';
                         Regulatory / Legal Proceedings
                     </h5>
 
-                    <p class="text-muted small">
+                    <p class="text-muted small" style="text-align: justify;">
                         Is the applicant presently involved in any material
                         proceeding, dispute, show-cause notice or regulatory
                         action relating to its MSO / broadcasting / distribution
@@ -812,7 +812,7 @@ require_once __DIR__ . '/includes/header.php';
                     <h4>Part F – Documents Enclosed</h4>
 
                     <p class="text-muted">
-                        Upload the applicable documents
+                        Upload the applicable documents enclosed with the application
                     </p>
 
                     <hr>
@@ -1147,26 +1147,26 @@ require_once __DIR__ . '/includes/header.php';
                         <ol>
                             <li class="mb-2" style="text-align: justify;">
                                 Abide by the Memorandum, Articles, Rules, Regulations,
-                                Bye-Laws and policies of DNOAI.
+                                Bye-Laws and policies of DNOAI, as applicable.
                             </li>
 
-                            <li class="mb-2">
+                            <li class="mb-2" style="text-align: justify;">
                                 Comply with the decisions of the competent governing
-                                body of DNOAI.
+                                body of DNOAI, subject to the applicable rules and laws.
                             </li>
 
-                            <li class="mb-2">
+                            <li class="mb-2" style="text-align: justify;">
                                 Provide information and documents as may reasonably
-                                be required by DNOAI.
+                                be required by DNOAI for membership, verification, regulatory representation or other legitimate association purposes.
                             </li>
 
                             <li class="mb-2" style="text-align: justify;">
                                 Promptly inform DNOAI of any material change in the
-                                information furnished.
+                                information furnished in this application.
                             </li>
 
                             <li class="mb-2" style="text-align: justify;">
-                                Conduct the business in accordance with applicable
+                                Conduct our business in accordance with applicable
                                 laws and regulatory requirements.
                             </li>
 
@@ -1182,7 +1182,7 @@ require_once __DIR__ . '/includes/header.php';
 
                             <li style="text-align: justify;">
                                 Understand that admission to membership is subject
-                                to approval by the competent authority of DNOAI.
+                                to approval by the competent authority of DNOAI and does not by itself create any right to representation in any particular matter.
                             </li>
                         </ol>
 
@@ -1199,8 +1199,8 @@ require_once __DIR__ . '/includes/header.php';
                             value="1"
                             id="declaration">
 
-                        <label class="form-check-label" for="declaration">
-                            I / We agree to the above declaration and undertaking.
+                        <label class="form-check-label" for="declaration" style="text-align: justify;">
+                            I / We further understand that DNOAI may verify the information furnished by us and may seek additional information or documents wherever considered necessary in accordance with its governing documents and applicable law.
                             <!-- <span class="text-danger">*</span> -->
                         </label>
 
