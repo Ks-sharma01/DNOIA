@@ -111,8 +111,8 @@ include __DIR__ . "/includes/header.php";
                     <section class="dnai-mission py-4 mb-4">
                         <div class="container text-center">
 
-                            <p class="dnai-slogan mb-0">
-                                <strong>DNOAI</strong>
+                            <p class="dnai-slogan mb-0" style="text-align: justify;">
+                                <strong class="text-center">DNOAI</strong>
 
                                 <span>BE HEARD</span>
                                 <b>→</b>
